@@ -1,0 +1,112 @@
+Project Name ,Rahat ,,,,,,,,,,,,,,,,,
+Module Name ,Agency Beneficiary management Module ,,Created By,,,,,,,,,,,,,,,
+Iteration No/Testing Cycle,,,Date of creation ,"30 July,2021",,,,,,,,,,,,,,
+Os/Platform Used ,,,Date of Review ,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,,,,,,,,,,
+AGENCY_BENEFICIARY_001,Verify Add New Beneficiary ,"Beneficiary can be added in three different ways. 
+1. Individually
+2. In Bulk 
+3. Social Mobilizer app ",System user should be able to add new beneficiareis individually ,,v1.0,I can add  new beneficiry in AGency app one at a time ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_002,Verify Add Beneficiary in Buk ,"Beneficiary can be added in three different ways. 
+1. Individually
+2. In Bulk 
+3. Social Mobilizer app ",System User should be able to add new beneficiries in bulk from Project section ,,v1.0,Only bulk upload at the project creationg is avilable. ,Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_003,Verify Add beneficiry from Social mobilizer app,"Beneficiary can be added in three different ways. 
+1. Individually
+2. In Bulk 
+3. Social Mobilizer app ",The Beneficiries should also be added through social mobilizer app. ,,v1.0,Beneficiaries can be added from social mobilizer app,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_004,Verify Beneficiary Information ,The Beneficiary will be added with their infrormation ,"The details of Beneficiary shoud have 
+Beneficary:
+Phone Number: 
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Old)",,v1.0,"Currently we have:
+Beneficary:
+Phone Number: 
+Project 
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Tota )
+If we can autocalculate the total family members by adding Child and Adult ",Fail,"September 21,2021",,,,,,,,,,
+,Verify Unique Phone Number ,Each beneficiry will have thier own phone number. Two Beneficiry with same phone number is not allowed ,Beneficiaries should have their uniques phone number. If Agency App user/Social Mobilizer tries to add Beneficiry with existing phone number. Error message should be sent ,High,v1.0,"Social Mobilizer app:When I added a beneficiry with already existing phone number,the transaction was completed but new beneficiry was not registered.The token that was  issued to the new beneficiry was issued to the existing phone numbers beneficry.  ",Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_005,Verify Assign Project to Beneficiary ,A beneficiry is assigned to projects,System users should be able to assign beneficiry to a project.,,v1.0,"while adding Beneficiry, I can assign beneficiry to the project.
+If I upload the beneficiry in bulk, they will be assigned to the project from where thwwy were added. ",Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_006,Verify Upload Beneficiary Photo ,Beneficirarys'Photo can be uploaded in the system ,System user should be able to upload the Photo of Benefiicry ,,v1.0,I can upload the file of Beneficiry Photo in the app( individual beneficy ) ,,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_007,Verify Photo file format ,Beneficirarys'Photo can be uploaded in the system ,"System users should be able to upload the photo of following format: 
+png,jpeg",,v1.0,"It does takes pdf, mp4 files while we upload and update. if we could throw message like: file not supported"" it woud be better ",Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_008,Verify Upload Beneficiary Document ,Beneficirarys' document - government id can be uploaded in the system ,System user should be abble to upload the identity card ,,v1.0,I can upload the file of Beneficiry ID  in the app,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_009,Verify Document file format ,Beneficirarys' document - government id can be uploaded in the system ,"System users should be able to upload the document of following format: 
+png,jpeg, pdf. ",,v1.0,"PDF format is not suported at the moment. However, It does takes pdf, mp4 files while we upload and update. if we could throw message like: file not supported"" it woud be better . ",Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_010,Verify Beneficiary list ,the added beneficiaries should be displayed in list ,"System users should be able to view the list of beneficiaries added in the system.
+Name
+Phone number
+Address
+Identity
+Group",,v1.0,"The list of beneficiry shows:
+Serial number
+Name
+Phone number
+Address
+Phone Number 
+Govt ID ",Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_011,Veirfy View Beneficiry List in Project ,You can see the list of beneficries added to a project in project details as well. ,The added and assigned beneficiries should be shown in Project details>Beneficiary List ,,v1.0,Only the beneficiries added individually are dislayed in Beneficiry list. Beneficiries added from social mobilizer app and bulk uload are not displayed. ,Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_012,Verify add beneficiry  in Dashboard ,"After adding a new benefciary , the number of Beneficiry will be added in Dashboard as well ",The number ofbeneficiary should be increased after adding a new beneficry ,,v1.0,Increased,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_013,Verify add beneficiry  in Dashboard ,"After adding a new benefciary to a project, the number will be visible in pie chart of dashboard ",The number of beneficiry added in a projet should be visible in Dashboards- piechart. ,,v1.0,visible,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_014,Verify mention Social Mobilizer,The agency should know which beneficiries are added by the social mobilizer ,The name of social mobilizer should be mentioned if the social mobilizer  has added the beneficiry ,,v1.0,not available.,Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_015,Verify Search option ,benficiries can be search with the help of search bar ,System should have a search bar to search the beneficiary by name ,,v1.0,I can search by name of benfeficiry after selecting name in option ,Pass,"September 21,2021",,,,,,,,,, 
+AGENCY_BENEFICIARY_016,Verify Filter by Projects ,Beneficiares can be filtered by Projects assigned to them ,System should have a filter by project option ,,v1.0,I can search by Project name instead of filter ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_017,Verify view Beneficiary details,System Users can view the details of beneficiaries whenever required ,"System users should be able to view following information :
+Beneficary:
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:
+Education
+No of family member ( Child, Adult, Old)
+Token Status 
+Balance
+Government ID Photo 
+Projects",,v1.0,"The details of Beneficiary viewed are:
+Beneficiry Photo : 
+Beneficary:
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:
+Education
+No of family member ( Child, Adult, Old)
+Token Status 
+Balance
+Government ID Photo 
+Projects",Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_018,Verify Issue Token later ,System Users can issue token to users later after adding the beenficiary ,System users should be able to issue token to the beneficiaries whenever required. ,,v1.0,I can issue token to users at anytime. ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_019,Verify Generate QR Code,Bulk QR code can be generated from project. But system can also generate individual beneficiries QR code,System users should be able to generate QR code of a particular beneficiary if required,,v1.0,I can generate QR code for individual Beneficiary by clicking on Generate QR code ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_020,Verify Edit Beneficiary details ,Beneficiaries details can be edited as well,System users can edit the details of beneficiaries as well ,,v1.0,I can edit the Details of Beneficiry by going to Details of Benficiry ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_021,Verify Restrict Edit Phone Number ,Beneficiries Identity is his/her Phone number which should not be edited ,System User should not be able to edit the Phone number of beneficiry ,,v1.0,I cannot Edit the Phone number of Beneficiry ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_022,Verify Assign beneficiry to multiple projects ,beneficiaries can be assigned to different projects as well ,System should allow system users to assign multiple projects to one beneficiary ,,v1.0,I don't have option to assign beneficiry to multiple projects ,Fail,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_023,Verify Issue token from project ,Beneficiries are  issued token from a project only ,System users should be able to issue token to beneficiaries only from projects budget ,,v1.0,The Token Issued to beneficiry are from the projet they are assigned to ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_024,Verify Update token status in Project ,The token status of a project can be viewed by the Users ,"If the token is issued to the beneficiary, the token status should be updated in the pie- chart of project details:
+Increase Used /issued token
+Decrease: available token ",,v1.0,updated ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_025,Verify Update token status in Dashboard ,The token status of a project can be viewed by the Users in bargraph as well ,"If the token is issued to the beneficiary, the token status should be updated in the bargraph of Dashboard. 
+",,v1.0,updated ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_026,Verify Update Current Balance of Beneficiry ,"After issuing token to the beneficiry, the current balance of Beneficiry will be updated ",The Current Balance of Benficiry should be increased after issuing token to the beneficiry. ,,v1.0,updated ,Pass,"September 21,2021",,,,,,,,,,
+AGENCY_BENEFICIARY_027,Verify Update issued token ,"Beneficiraies can be issued token in different way.
+1. Bulk Token issue 
+2. while adding beneficiary
+3. after adding beneficiary  ",The token assigned to beneficiray should be up-to date if token is issued while adding beneficiry ,,v1.0,The token is updated in beneficry as well as project when token is assigned while adding beneficry ,Pass,"September 21,2021",,,,,,,,,,

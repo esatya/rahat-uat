@@ -1,1 +1,105 @@
-testing
+Project Name ,Rahat ,,,,,,,,
+Module Name ,Agency Vendor ,,Created By,,,,,,
+Iteration No/Testing Cycle,,,Date of creation ,"20 July,2021",,,,,
+Os/Platform Used ,,,Date of Review ,,,,,,
+,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+AGENCY_VENDOR_001,Verify Add new vendor ,"Vendor can be added in two ways:
+1. Registration from merchant app
+2. Adding vendor from agency app ",System should allow system users to add vendor from agency app ,,v1.0 ,This is actually not required. ,Fail,,
+AGENCY_VENDOR_002,Verify Connect Merchant app ,Merchant app is used by vendors to track the rahat distribution ,System should be connected to Rahat merchant app ,,v1.0 ,The Agency app is connected to Vendor app. The vendor Activities of Vendor app is updated in Agency app ,Pass,,
+AGENCY_VENDOR_003,Verify Add new vendor from merchant app ,vendors can register account using Rahat Merchant app ,System should add new vendor as they register from Merchant app ,,v1.0 ,"after Vendor registers from Vendor app, agency app recieves a new vendor. ",Pass,,
+AGENCY_VENDOR_004,Verify Notification of Registration from Merchant app ,vendors can register account using Rahat Merchant app which is notified to agency app ,System should get an notification as vendor register in Merchant app ,,v1.0 ,The notification feature is not available at the moment ,Fail,,
+AGENCY_VENDOR_005,Verify Approve Vendor ,"After Vendor register from merchant app, he/she needs approval from agency  ",system users should be able to approve/reject  the registerd vendors. ,,v1.0 ,Agency app Users can approve the vendor but cannot reject the vendor ,Fail,,
+AGENCY_VENDOR_006,Verify Assign Project ,"To approve the vendor, Agency assigns a project to vendor ",System User should be able to assign project to the Vendor ,,v1.0 ,This is not available,Fail,,
+AGENCY_VENDOR_007,Verify Vendor Active status ,"After approving the vendor, vendor can be active or suspend status ",System users should be able to activate or deactivate the vendors. ,,v1.0 ,Vendor canot be activated or suspened as per the reuirement . ,Fail,,
+AGENCY_VENDOR_008,Verify Update Details of Vendor from Merchant app ,"As vendor register from merchant app, his/her details are updated in the system ","System should sync the details of vendor from the merchant app 
+Profile Picture 
+Vendor Status( Active/Suspend)
+Name
+Gender: Male, Female, Others  
+Shop Name
+Address
+Phone number
+Email
+Education
+-----------------
+PAN Number
+Bank Name
+Bank Account Number
+Branch  
+---------------
+Identity Photo
+Signature Photo 
+MOU file ",,v1.0 ,"The details of Vendors Viewed are:
+Profile Picture 
+Vendor Status( Active/Suspend)
+Name
+Gender: Male, Female, Others  
+Shop Name
+Address
+Phone number
+Email
+Education
+-----------------
+PAN Number
+Bank Name
+Bank Account Number
+Branch  
+---------------
+Identity Photo
+Signature Photo 
+MOU file ",Pass,,
+AGENCY_VENDOR_009,Verify Store Profile picture of Vendor ,Vendor can click their Profile picture from Merchant app ,The profile photo should be stored in Agency app,,v1.0 ,Profile photo of vendor is shown in Vendor details ,Pass,,
+AGENCY_VENDOR_010,Verify Store Govenrment ID photo of Vendor ,Vendor can click their Government ID photo from Merchant app ,The government ID photo should be stored in Agency app,,v1.0 ,Government ID  of vendor is shown in Vendor details  edit section only. ,Fail,,
+AGENCY_VENDOR_011,Verify Store digita signature of Vendor ,Vendor can upload their signature digitally from Merchant app ,Vendors digital signature should be stored in Agency app,,v1.0 ,Digital Signature  of vendor is shown in Vendor details >edit section only.,Fail,,
+AGENCY_VENDOR_012,Verify Store MOU of Vendor ,Vendor can upload MOU from Merchant app ,The MOU file should be stored in Agency app,,v1.0 ,MOU of vendor is shown in Vendor details >edit section only,Fail,,
+AGENCY_VENDOR_013,Verify View List of Vendors,Vendors can be added from Agency app and Merchant app. Both the vedors are displyed in agency app ,Vendors added from agency app and vendors registered from Merchant app should be listed in Agency app ,,v1.0 ,Vendors registered are listed in agency app ,Pass,,
+AGENCY_VENDOR_014,Veirfy View Vendor List in Project ,You can see the list of vendors registeredto a project in project details as well. ,The added and assigned vendors should be shown in Project details>Vendor  List ,,v1.0 ,Assigning vendor to project feature not available ,Fail,,
+AGENCY_VENDOR_015,Verify add Vendor   in Dashboard ,"After registering a new vendor , the number of Vendor will be increasd in Dashboard as well ",The number of vendor should be increased after registering a new vendor ,,v1.0 ,increased,Pass,,
+AGENCY_VENDOR_016,Verify Vendors information ,Vendors information are updated in the syetsm ,"The Vendor information should have :
+Profile Picture 
+Name
+Gender: Male, Female, Others  
+Shop Name
+Address
+Phone number
+Email
+Education
+-----------------
+PAN Number
+Bank Name
+Bank Account Number
+Branch  
+---------------
+Identity Photo
+Signature Photo 
+MOU file ",,v1.0 ,"The Vendor information available are :
+Profile Picture 
+Name
+Gender: Male, Female, Others  
+Shop Name
+Address
+Phone number
+Email
+Education
+-----------------
+PAN Number
+Bank Name
+Bank Account Number
+Branch  
+---------------
+Identity Photo
+Signature Photo 
+MOU file ",Pass,,
+AGENCY_VENDOR_017,Verify View Vendor details ,All the information of the vendor is shown in Agency app,System Users should be able to view all the details of Vendor ,,v1.0 ,details can be viewed,Pass,,
+AGENCY_VENDOR_018,Verify Edit Vendor Details ,The Details of Vendor can be edited if required,System User should be able to edit the details of vendor ,,v1.0 ,edit option available,Pass,,
+AGENCY_VENDOR_019,Verify Restrict Wallet address edit ,All the vendor details can be edited except the wallet address,System Users should be restricted to edit the Wallet address of vendor ,,v1.0 ,Wallet address cannot be edited ,Pass,,
+AGENCY_VENDOR_020,Veify Upload documents later ,"If Vendors have not uploded the documents like MOU , Digital Signature, they can be uploaded by agency as well",System Users should be able to upload the missing documents of vendor. ,,v1.0 ,Upload option available,Pass,,
+AGENCY_VENDOR_021,Verify Vendor Assign to project ,Vendors can be assigned to particluar /multiple projects ,System Users should be able to assign vendors to one or multiple projects,,v1.0 ,Not available ,Fail,,
+AGENCY_VENDOR_022,Verify Display Projects ,Vendors can be assigned to particluar /multiple projects ,System users should be able to view list of projects they are assigned to ,,v1.0 ,Project involved section is available. but projects asseigned are not listed . ,Fail,,
+AGENCY_VENDOR_023,Verify track Vendor Token status ,Vendors will receive the token from beneficiaries and they can redeem the token as well. This transaction can be tracked ,System User should be able to track the Transaction of Vendor from agency app ,,v1.0 ,The transcation history of vendors are avalaible in Vendor details ,Pass,,
+AGENCY_VENDOR_024,Verify View Token status ,Vendors will receive the token from beneficiaries and they can redeem the token as well. This transaction will be recorded in agency app ,System users should be able to view the token status of vendor( Balance /Total token redeemed),,v1.0 ,The token status of vendor can be viewed in Detail page of Vendor ,Pass,,
+AGENCY_VENDOR_025,Veirfy Search Vendor ,You can search for the vendor by Name ,System user should be able to search the vendor by Name ,,v1.0 ,available,Pass,,
+AGENCY_VENDOR_026,Veirfy Search Vendor ,You can search for the vendor by Phone Number ,System user should be able to search the vendor by Phone Number ,,v1.0 ,available,Pass,,
+AGENCY_VENDOR_027,Verify Filter Vendor ,You can also filter the Vendor as per the vendor status ,System User should be able to filter the vendor as per the vendor status : New/ Active ,,v1.0 ,available,Pass,,
