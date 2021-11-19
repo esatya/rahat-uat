@@ -1,0 +1,78 @@
+Project Name ,Rahat ,,,,,,,
+Module Name ,Agency Mobilizer ,,Created By,,,,,
+Iteration No/Testing Cycle,,,Date of creation ,"15 September,2021",,,,
+Os/Platform Used ,,,Date of Review ,,,,,
+,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date 
+AGENCY_SOCIALMOBILIZER_001,Verify Add new Social Mobilizer ,"Social Mobilizer can be added in two ways:
+1. Registration from Mobilizer app
+2. Adding Social Mobilizer from agency app ",System should allow system users to add Social Mobilizer from agency app ,,v1.2,This is actually not required. ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_002,Verify Connect Mobilizer app ,Mobilizer app is used by Social Mobilizers to track the rahat distribution ,System should be connected to Rahat Mobilizer app ,,v1.2,The Agency app is connected to Vendor app. The vendor Activities of Vendor app is updated in Agency app ,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_003,Verify Add new Social Mobilizer from Mobilizer app ,Social Mobilizers can register account using Rahat Mobilizer app ,System should add new Social Mobilizer as they register from Mobilizer app ,,v1.2,"after Mobilizer registers from Mobilizer app, agency app recieves a new social mobilizer.",Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_004,Verify Notification of Registration from Mobilizer app ,Social Mobilizers can register account using Rahat Mobilizer app which is notified to agency app ,System should get an notification as Social Mobilizer register in Mobilizer app ,,v1.2,The notification feature is not available at the moment ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_005,Verify Approve Social Mobilizer ,"After Social Mobilizer register from Mobilizer app, he/she needs approval from agency  ",system users should be able to approve/reject  the registerd Social Mobilizers. ,,v1.2,Agency app Users can approve the vendor but cannot reject the vendor ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_006,Verify Assign Project ,To approve the Social mobilizr agency needs to assign project to the mobilizr ,System user should be able to assign project to the mobilizer while approving the regitratio request. ,,v1.2,Agency can assign social mobilizer before final approval ,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_007,Verify Social Mobilizer Active status ,"After approving the Social Mobilizer, Social Mobilizer can be active or suspend status ",System users should be able to activate or deactivate the Social Mobilizers. ,,v1.2,Vendor canot be activated or suspened as per the reuirement . ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_008,Verify Update Details of Social Mobilizer from Mobilizer app ,"As Social Mobilizer register from Mobilizer app, his/her details are updated in the system ","System should sync the details of Social Mobilizer from the Mobilizer app 
+Profile Picture 
+Social Mobilizer Status( Active/Suspend)
+Name
+Phone Number 
+Address
+Organization Name 
+Email address
+GOvt ID card
+Digital Signature (optional)
+MOU (optional)",,v1.2,"The details of Mobilizers Viewed are:
+Profile Picture 
+Social Mobilizer Status( Active/Suspend)
+Name
+Phone Number 
+Address
+Organization Name 
+Email address
+GOvt ID card
+
+These are not available Digital Signature (optional)
+MOU (optional)",Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_009,Verify Store Profile picture of Social Mobilizer ,Social Mobilizer can click their Profile picture from Mobilizer app ,The profile photo should be stored in Agency app,,v1.2,Shown in vendor details,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_010,Verify Store Govenrment ID photo of Social Mobilizer ,Social Mobilizer can click their Government ID photo from Mobilizer app ,The government ID photo should be stored in Agency app,,v1.2,Shown only in edit section ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_011,Verify Store digita signature of Social Mobilizer ,Social Mobilizer can upload their signature digitally from Mobilizer app ,Social Mobilizers digital signature should be stored in Agency app,,v1.2,Not available ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_012,Verify Store MOU of Social Mobilizer ,Social Mobilizer can upload MOU from Mobilizer app ,The MOU file should be stored in Agency app,,v1.2,Not available ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_013,Verify View List of Social Mobilizers,Social Mobilizers can be added from Agency app and Mobilizer app. Both the vedors are displyed in agency app ,Social Mobilizers added from agency app and Social Mobilizers registered from Mobilizer app should be listed in Agency app ,,v1.2,Soial Mobilizers registered are listed in agency app ,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_014,Veirfy View Social Mobilizer List in Project ,You can see the list of Social Mobilizers registered to a project in project details as well. ,The added and assigned social mobilizers should be shown in Project details>Social Mobilizer  List ,,v1.2,not available ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_015,Verify add Social Mobilizer   in Dashboard ,"After registering a new Social Mobilizer , the number of Social Mobilizer will be increasd in Dashboard as well ",The number of Social Mobilizer should be increased after registering a new Social Mobilizer ,,v1.2,increased,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_016,Verify Social Mobilizers information ,Social Mobilizers information are updated in the syetsm ,"The Social Mobilizer information should have :
+Profile Picture 
+Name
+Phone Number 
+Address
+Organization Name 
+Email address
+GOvt ID card
+Digital Signature (optional)
+MOU (optional)
+Identity Photo
+Signature Photo 
+MOU file ",,v1.2,"The details of Mobilizer Viewed are:
+Profile Picture 
+Social Mobilizer Status( Active/Suspend)
+Name
+Phone Number 
+Address
+Organization Name 
+Email address
+GOvt ID card
+
+These are not available Digital Signature (optional)
+MOU (optional)",Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_017,Verify View Social Mobilizer details ,All the information of the Social Mobilizer is shown in Agency app,System Users should be able to view all the details of Social Mobilizer ,,v1.2,details can be viewed ,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_018,Verify Edit Social Mobilizer Details ,The Details of Social Mobilizer can be edited if required,System User should be able to edit the details of Social Mobilizer ,,v1.2,edits can be made ,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_019,Verify Restrict Wallet address edit ,All the Social Mobilizer details can be edited except the wallet address,System Users should be restricted to edit the Wallet address of Social Mobilizer ,,v1.2,Restriction to edit wallet address,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_020,Veify Upload documents later ,"If Social Mobilizers have not uploded the documents like MOU , Digital Signature, they can be uploaded by agency as well",System Users should be able to upload the missing documents of Social Mobilizer. ,,v1.2,Available,Pass,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_021,Verify Social Mobilizer Assign to project ,Social Mobilizers can be assigned to particluar /multiple projects ,System Users should be able to assign Social Mobilizers to one or multiple projects,,v1.2,Not available ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_022,Verify Display Projects ,Social Mobilizers can be assigned to particluar /multiple projects ,System users should be able to view list of projects they are assigned to ,,v1.2,viewed button,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_023,Verify track Social Mobilizer Transaction ,Social Mobilizer will add the beneficiries in Rahat application. Agency can track the actions of Social mobilizer ,System User should be able to track the Transaction of Social Mobilizer from agency app ,,v1.2,Transaction history is blank ,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_024,Veirfy Search Social Mobilizer ,You can search for the Social Mobilizer by Name ,System user should be able to search the Social Mobilizer by Name ,,v1.2,available,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_025,Veirfy Search Social Mobilizer ,You can search for the Social Mobilizer by Phone Number ,System user should be able to search the Social Mobilizer by Phone Number ,,v1.2,available,Fail,"24 September,2021"
+AGENCY_SOCIALMOBILIZER_026,Verify Filter Social Mobilizer ,You can also filter the Social Mobilizer as per the Social Mobilizer status ,System User should be able to filter the Social Mobilizer as per the Social Mobilizer status : New/ Active ,,v1.2,available,Fail,"24 September,2021"
