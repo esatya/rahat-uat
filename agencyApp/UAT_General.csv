@@ -1,0 +1,15 @@
+Project Name ,Rahat ,,Created By,,,,,
+Module Name ,Agency GENERAL ,,Date of creation ,"29 July,2021",,,,
+Iteration No/Testing Cycle,,,Date of revision ,"September 9 ,2021",,,,
+Os/Platform Used ,,,Date of Review ,,,,,
+,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date 
+AGENCY_GENERAL_001,Verify Display Rahat logo ,Logo of rahat is displayed all the time in the application ,Logo of Rahat should be displayed everywhere and any time ,High,v1.0,The logo is displayed in all the pages of the application. ,Pass,"August 12,2021"
+AGENCY_GENERAL_002,Verify Nav Bar categories clickable ,all the categories of Navigation bar directs to the destined page ,All the categories in Navigation bar should direct system user to respective page ,High,v1.0,All the Menus directs the users to their respected link ,Pass,"August 12,2021"
+AGENCY_GENERAL_003,Verify Hide Nav bar ,the Navigation bar can be hide if required ,System users should be able to hide Navigation bar if required. ,Medium,v1.0,We can hide the Navigation bar if required after logining in to the application ,Pass,"August 12,2021"
+AGENCY_GENERAL_004,Verify View copyright ,Copyright text is displayed on the footer ,The copyright text should be displayed in footer. ,High,v1.0,The copyright Text is dispayed in the footer for every pages ,Pass,"August 12,2021"
+AGENCY_GENERAL_005,Verification Notification feature ,"Notification is displaye for cretain features like :
+when Vendor Register to Merchant App
+when Vendor Request for Redeem ",Notification should be sent to agency for certain actions,Medium,v1.0,Feature not added yet,Fail,"August 12,2021"
+AGENCY_GENERAL_006,Verification Notify vendor regisration ,System user is sent notification after vendor register to merchant app,Notification message should be sent to the system when vendor register to the system and ask for approval ,Medium,v1.0,Feature not added yet,Fail,"August 12,2021"
+AGENCY_GENERAL_007,Verification Notification feature ,System user is sent notification after vendor request for redeem token ,Notification message should be sent to the system when vendor request for redeem token ,Medium,v1.0,Feature not added yet,Fail,"August 12,2021"

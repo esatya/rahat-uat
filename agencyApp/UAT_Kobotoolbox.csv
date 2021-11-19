@@ -1,0 +1,15 @@
+Project Name ,Rahat ,,Created By,,,,,
+Module Name ,Kobotool Box Integration ,,Date of creation ,"25 October,2021",,,,
+Iteration No/Testing Cycle,,,Date of revision ,,,,,
+Os/Platform Used ,,,Date of Review ,,,,,
+,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date 
+AGENCY_KOBO_001,Verify Kobotool box Integration ,Kobotool box is used to add beneficiry in the rahat application ,Kobotool box should be integrated in Agency app ,High,v1.3,Kobotool box is integrated in Agency app. Available at Adminstration section ,Pass,"October 26,2021"
+AGENCY_KOBO_002,Verify Update Data of Kobotool box ,"After details of beneficiry is added in Kobotool box, The data can be imported to Agency app",The beneficiry details entered in Kobotool box  form should be imported in agnecy app ,High,v1.3,"The data uploaded from Kobotool box is automatically updated in Agency app 
+Adminstation >KobotoolBox ",Pass,"October 26,2021"
+AGENCY_KOBO_002,Verify Update Data of Kobotool box ,"After details of beneficiry is added in Kobotool box, The data can be imported to Agency app",The beneficiry details entered in Kobotool box  form should be imported in agnecy app ,High,v1.3,"The data uploaded when offline from Kobotool box isupdated in Agency app 
+Adminstation >KobotoolBox after going online. The data are saved inside the browser in case of offline ",Pass,"October 26,2021"
+AGENCY_KOBO_003,Verify Import Data Accuracy ,The fields of Kobotool box form and Agency app Label should match ,The fields of Kobotool box form and Agency app Label should match. ,High,v1.3,The fields of Response form and AGency app matches  ,Pass,"October 26,2021"
+AGENCY_KOBO_004,Verify Import Beneficry to Beneficiry List ,The data entered using Kobotool box is upated in Agency app then later User can import the data to Beneficiry list  ,System users should be able to import the beenficiry to Beneficiry List ,High,v1.3,"After clicking import button, the newly added beneficiries are updated in Beneficiray list ",Pass,"October 26,2021"
+AGENCY_KOBO_005,Verify check Duplication ,"Once the beneficiries are imported to beneficiry list, they cannot be re imported. ",System should check the beneficiary duplication while importing data to beneficiry list ,High,v1.3,"Only newly aded beneficiries are updated. The messege : 2 beneficiries updated , 6 beneficiry already exists message pops up ",Pass,"October 26,2021"
+AGENCY_BENKOBO_001,Verify Specify Entry from KoboTool Box ,It is better if system specifies that the beneficiary are updated from Kobotool box ,System should specify the list of beneficiriy imported from Beneficiry ,Medium,v1.3,not available ,Fail,"October 26,2021"
