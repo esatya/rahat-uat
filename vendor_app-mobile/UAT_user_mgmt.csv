@@ -1,0 +1,38 @@
+Project Name ,Rahat Vendor App ( Mobile Version) ,,URL,N/A ,,,,,
+Module Name ,User Management ,,Created By,Nishu Bade Shrestha ,,,,,
+Iteration No/Testing Cycle,1,,Date of creation ,"18 November,2021",,,,,
+Os/Platform Used ,Android,,Date of Review ,,,,,,
+,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Data/ Input ,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+Vendor_User_001,Verify Registration in Rahat ,Vendors can onboard themselves in the Rahat ecosystem through Vendor app Registration. ,,Vendors should be able to register themseles using Vendor app ,v1.0 ,Sucessful registration. But takes 2-3 minutes to register ,Pass,"November 22,2021",
+Vendor_User_002,Verify Registration Details ,Vendors needs to input their basic details during registration ,Vendor Basic details ,"The basic details of Vendors should be: 
+Name 
+Phone number
+Adress:
+Email address:",v1.0 ,"Name 
+Phone Number 
+address 
+email address 
+Available ",Pass,"November 22,2021",
+Vendor_User_003,Verify Invalidate Phone number  Duplication ,Each vendor needs to have a unique phone number.  ,phone number already exits aalready registered phone number ,"The system should be able to check whether or not the phone number is unique. Incase of duplication, error messeage should be sent ",v1.0 ,takes in already existed phone number as well ,Fail,"November 22,2021",
+Vendor_User_004,Verify Invalidate email address Duplication ,Each vendor needs to have a unique email address. ,Email address already registered ,"The system should be able to check whether or not the email address is unique. Incase of duplication, error messeage should be sent ",v1.0 ,takes in already existed email address as well ,Fail,"November 22,2021",
+Vendor_User_005,Verify Upload Profile Picture ,They also need to upload their profile photo ,Profile Photo ,Vendors should be able to upload their profile picture ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_User_006,Verify Upload ID card Photo ,they need to upload Their ID card of both views ,ID card Photo ,Vendors should be able to upload front view and back view photo of their ID card ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_User_007,Verify option to upload picture ,Vendors can upload the photo by clicking picture or they can upload the photo from their gallery ,Photo from gallery / camera ,"Vendors should have an option to upload Photo.
+1. Click Picture
+2. Upload from Gallery ",v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_User_008,Verify Allow crop Photo ,They should be able to crop the photo ,Photo ,Vendors should be able to crop the photo if required ,v1.0 ,available ,Pass,"November 22,2021",
+Vendor_User_009,Verify Allow retake photo ,They can retake the photo if not satisfied ,Photo ,Vendors should be able to retake the photo if necessary ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_User_010,Verify Create Wallet ,"after registartion, wallet will be created ",Register,Vendors wallet account should be created after registration ,v1.0 ,"Wallet is created after registration, But it takes 2-3 minutes sometimes. ",Pass,"November 22,2021",
+Vendor_User_011,Verify Unique Wallet Address ,Each vendor account will have a unique wallet address ,Register ,Each vendor wallet account should have a unique wallet address ,v1.0 ,Unique address is created for each wallet ,Pass,"November 22,2021",
+Vendor_User_012,Verify Restore Wallet ,"if vendors want to open their vendor account in some other phone or wants to relogin to the account, they can restore the account ",,Vendors should be able to restore their wallet. ,v1.0 ,vendors can restore account ,Pass,"November 22,2021",
+Vendor_User_013,Verify Restore Wallet using mnemonic ,They can restore the wallet using mnemonic ,12 word mnemonics ,Vendor should be able to restore wallet using mnemonic. ,v1.0 ,12 word mnemonics created after every wallet creation ,Pass,"November 22,2021",
+Vendor_User_014,Verify Restore fail if incorrect mnemonic ,"Vendors cannot restore wallet, if mnemonics is typed wrong ",incorrect 12 word mnemonics,Error message should be shown if incorrect mnemonics typed ,v1.0 ,error message is displayed if typed wrong mnemonics ,Pass,"November 22,2021",
+Vendor_User_015,Verify Create mnemonic ( 12 Word ) ,"After successful registration and creation of wallet, a 12 word mnemonic will be created for one vendor account. this will be unique as well ",,"After completion of registration, 12 word mnemonics should be created ",v1.0 ,12 word mnemonics created after every wallet creation ,Pass,"November 22,2021",
+Vendor_User_016,Verify View mnemonic whenever required ,The mnemonic should be kept safely. But if required vendors can view the mnemonic whenever required( Untill they are logged in to their account) ,,Vendors should be able to view the 12 word mnemonic when they are logged in to the account ,v1.0 ,mnemonics can be viewed if Settings>Backup>Restore using seedphrase,Pass,"November 22,2021",
+Vendor_User_017,Verify Backup Wallet in Google Drive ,Vendors can backup their wallet in google drive as well. ,gmail address ,Vendors should be able to back up the wallet in google drive. ,v1.0 ,functionality not working ,Fail,"November 22,2021",
+Vendor_User_018,Verify Restore using Google Drive ,Vendors should be able to restore the wallet using the google drive ( if vendor has backed up their accountin drive ) ,,Vendors should be able to restore the backed up wallet using google drive ,v1.0 ,not working ,Fail,"November 22,2021",
+Vendor_User_019,Verify Keep User loged in ,"Until and unless the vendor, cleans the app data, the vendor account should be loged in to the device ",,Vendors should be logged in to their account unless they clean app data. ,v1.0 ,stays logged in ,Pass,"November 22,2021",
+Vendor_User_020,Verify Link Wallet to agency ,Each vendor wallet account will be linked to at least one Agency. ,,Vendors should be allowed to link the account to atleast one agency. ,v1.0 ,"Available. 
+Currently, only rahat agency is available to link ",Pass,"November 23,2021",
+Vendor_User_021,Verify view Vendor list in agency app,Admin of agency app can view the list of linked vendors in agency app,,Admin of agency app should be able to view the list of vendors linked to agency ,v1.0 ,Vendor list is viewed immediately after the vendor sends the registration request,Pass,"November 22,2021",
