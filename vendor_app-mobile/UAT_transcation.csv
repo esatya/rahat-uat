@@ -1,0 +1,46 @@
+Project Name ,Rahat Vendor App ( Mobile Version) ,,URL,N/A,,,,,
+Module Name ,Transcation ,,Created By,Nishu Bade Shrestha ,,,,,
+Iteration No/Testing Cycle,,,Date of creation ,"18 November,2021",,,,,
+Os/Platform Used ,Android,,Date of Review ,,,,,,
+,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Data/ Input ,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+Vendor_TXN_001,Verify Charge Beneficiries ,Vendors can transfer the token of beneficiaries to their wallet. ,,Vendors should be able to charge the token of beneficiries ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_TXN_002,Verify Charge using Phone number ,Vendors can charge the token through beneficiries phone number ,Beneficiries registered Phone number ,vendors should be able to charge the token through beneficires phone number. ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_TXN_003,Verify Charge using QR code ,Vendors can charge the token through beneficiries QR code ,Beneficiaries register QR code ,Vendors can charge the token by scanning the QR code issued by the agency ,v1.0 ,functionality not working ,Fail,"November 22,2021",
+Vendor_TXN_004,Verify Charge details for Phone number ,Vendor needs to type in the charge details while performing  transcation ,"Registered Phone Number
+charge amount 
+Remarks ","Vendor shoud be able to input : 
+Beneficiaries Phone number 
+Token Amount 
+Remarks 
+in case of charging through Phone number ",v1.0 ,"Available details :
+Phone number 
+token Amount 
+Remarks",Pass,"November 22,2021",
+Vendor_TXN_005,Verify OTP receved ,Beneficiry will receive a message in their registered phone number after vendor submits the phone number ,,OTP request should be sent to the beneficiries phone number ,v1.0 ,OTP is sent to beneficiary ,Pass,"November 22,2021",
+Vendor_TXN_006,Verify Charge details for QR code (unassigned token),Vendor needs to type in the charge details while performing  transcation ,"Scan QR code 
+Charge Amount 
+Remarks",Vendor should be able to mention token amount and remarks after scanning the QR code if the agency has not assigned token. ,v1.0 ,functionality not working ,Fail,"November 22,2021",
+Vendor_TXN_007,Verify Charge details for QR code (assigned token),Vendor needs to type in the charge details while performing  transcation ,"Scan QR code 
+Reamarks",Vendor should be able to mentionremarks after scanning the QR code if the agency has not assigned token. ,v1.0 ,functionality not working ,Fail,"November 22,2021",
+Vendor_TXN_008,Verify Transaction successful ,"If every thing matches, the transaction will be successfull ",Charge ,If all the inputs are correct the transaction will be successful. ,v1.0 ,"transacation is successful, if all details filled correctly. ",Pass,"November 22,2021",
+Vendor_TXN_009,Verify Transaction fail if invalid number,"If vendor types in invalid Phone number, the transaction will fail",unregistered Phone number ,"If vendor types in invalid Phone number, the transaction will fail",v1.0 ,error message is sent if unregistered phone number typed ,Pass,"November 22,2021",
+Vendor_TXN_010,Verify Transaction fail if invalid QR code ,"If vendor scans invalid QR code, the transaction will fail",unregistered QR code ,"If vendor scans invalid QR code, the transaction will fail",v1.0 ,functionality not working ,Fail,"November 22,2021",
+Vendor_TXN_011,Verify Transaction fail if insufficent balance ,"If vendors inputs charge amount greater then the token amount of beneficiry, transaction will fail ",chharge amount greater then beneficiaries availble balance ,"If vendors inputs charge amount greater then the token amount of beneficiry, transaction will fail ",v1.0 ,"error message is sent, if charge amount greater then beneficiary available balance ",Pass,"November 22,2021",
+Vendor_TXN_012,Verify Transaction Fail if invalid OTP ,"If vendors types in wrong OTP, transaction will fail",incorrect OTP ,"If vendors types in wrong OTP, transaction will fail",v1.0 ,"error message is sent, if typed incorrect OTP ",Pass,"November 22,2021",
+Vendor_TXN_013,Verify View Receipt ,"After successful transaction, vendor will receive an receipt ",successfull transaction ,"if the transaction is successful, vendor should receive a transaction receipt ",v1.0 ,"In every successful transcation, receipt is printed ",Pass,"November 22,2021",
+Vendor_TXN_014,Verify Save receipt ,The transaction receipt will be saved to view  it in future ,successfull transaction ,The system should save the receipt for future ,v1.0 ,Transaction details can be viewed in transaction history. Homepage >Recent Transaction>view all ,Pass,"November 22,2021",
+Vendor_TXN_015,Verify Reedeem Token ,Vendors can redeem their token balance to convert the token into fiat currency ,,The system should let the vendors redeem the Token ,v1.0 ,Available ,Pass,"November 22,2021",
+Vendor_TXN_016,Verify Redeem Token Content ,"While redeeming the token, vendors should enter some basic data. ",,"The vendor should be able to input :
+Redeeem Amount 
+Remarks 
+during redeem transaction. ",v1.0 ,"Available COnetnt:
+Redeem Amount
+Remarks",Pass,"November 22,2021",
+Vendor_TXN_017,Verify Transaction successful ,"The transaction will be successful, if all the details are correct ",,"If vendor inputs all the details correctly, the transaction will be successful. ",v1.0 ,"transacation is successful, if all details filled correctly. ",Pass,"November 22,2021",
+Vendor_TXN_018,Verify Trasncation fail if insufficent balance ,"If vendor types in redeem amount, greater then the availble balance in vendor wallet, the transcation will fial ",redeem amount greater than available balance ,"If vendor types in redeem amount, greater then the availble balance in vendor wallet, the transcation will fial ",v1.0 ,"error message is sent, if charge amount greater then vendor available balance ",Pass,"November 22,2021",
+Vendor_TXN_019,Verify view Redeem Receipt ,"After successful transaction, vendor will receive an receipt ",successful transaction ,"vendor should receive a receipt, after a successful transcation ",v1.0 ,"In every successful transcation, receipt is printed ",Pass,"November 22,2021",
+Vendor_TXN_020,Verify Save Receipt ,The transaction receipt will be saved to view  it in future ,successful transaction ,The system should save the receipt for future ,v1.0 ,Transaction details can be viewed in transaction history. Homepage >Recent Transaction>view all ,Pass,"November 22,2021",
+Vendor_TXN_021,Verify Update Token Balance ,Token balance of vendor will be updated after successful transaction ,,"After successful transcation, the token balance of vendor should be updated ",v1.0 ,Token balance available in home page is updated ,Pass,"November 22,2021",
+Vendor_TXN_022,Verify Update Token Balance  in Agency app ,"The token balance of vendor will be updated in agency app, after successful transcation ",,the token balance in vendor app should be updated in agency app as well ,v1.0 ,Token balance of vendor in Agency app is updated ,Pass,"November 22,2021",
+Vendor_TXN_023,Verify View transaction details,Vendors can view their detailed transaction in history ,,Vendors should be able to view the transcation details anytime ,v1.0 ,Transaction details can be viewed in transaction history. Homepage >Recent Transaction>view all ,Pass,"November 22,2021",
