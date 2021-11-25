@@ -1,0 +1,46 @@
+This Module is soley related to the NFT Module implementation in Rahat Agency app. ,,,,,,,,,,
+Project Name ,Rahat Agency App ,,Created By,Nishu Bade Shrestha ,,,,,,
+Module Name ,NFT Module ,,Date of creation ,"24 November,2021",,,,,,
+Iteration No/Testing Cycle,1,,Date of revision ,,,,,,,
+Os/Platform Used ,Windows 10 ,,Date of Review ,,,,,,,
+,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+AGENCY_NFTPROJECT_001,Verify NFT token in AGency app ,NFT token / Package represents a comodity or group of comodity in Rahat ,"1. Create Project
+2. Add Budget 
+3. Select Package 
+4. Create package ",,Agecny app should have a feature to create NFT token for the project ,v1.0 ,Available inside Project>Budget,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_002,Verify Create package for Project ,A package can be created for project ,,Details of package,Admin should be able to create package for a project ,v1.0 ,"Available after creating project, Add Budget> select package>create Package ",Pass,"November 25,2021",
+AGENCY_NFTPROJECT_003,Verify Mention worth of Package ,Each package will have its worth in fiat currency. ,,worth in fiat currency ,Admin should be able to mention the worth of package created ,v1.0 ,Worth of package can be created in fiat currencey. where you can also select the curency ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_004,Verify Content of Package ,Each package will have their basic details ,,,"While creating package, admin should be able to input basic details of Package. like :
+1. Package Name 
+2. Package Description 
+3. List of Items in package
+4. Number of package created 
+5. Package worth in fiat ccurrency ",v1.0 ,"The details of package available are:
+1. Photo representing package
+2. Package Name 
+3. Package Symbol 
+4. Category
+5. Quantity 
+6. Description 
+7. Value in fiat currency 
+8. Items in package ",Pass,"November 25,2021",
+AGENCY_NFTPROJECT_005,Verify Issue quantity for Package ,"While creating a package, you can mention how much quantity of package you want to create ",,,Admin should be able to define the quantity of package being created ,v1.0 ,Available as quantity in details ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_006,Verify Group the comodity in a package ,"In a package, you can group the  comodities as well ",,,Admin should be able to create a package as a group of comodities. ,v1.0 ,Available as Items in package ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_007,Verify Category of Package ,"you can aslo mention , in which category the package comes in ",,,Admin should be able to define the category of package ,v1.0 ,currently defined category listed ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_008,Verify Mint Package ,"After creating the package, you can mint the package whenever you want. ","1. Go to Project
+2. Project Details 
+3. Add Budget 
+4. Go to Package 
+5. Mint Package ",,Admin should be able to mint the package even later after creating package. ,v1.0 ,Avaiable to mint package. in package section ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_009,Verify View Package List of project ,You can view the list of package in a project ,"1. Go to Project
+2. Project Details 
+3. Add Budget 
+4. Go to Package ",,Agency app should display th list of package available in the project ,v1.0 ,Available ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_010,Verify View Details of A package ,You can also view the details of package later ,"1. Go to Project
+2. Project Details 
+3. Add Budget 
+4. Go to Package 
+5. View package details ",,Admin should be able to view the details of the package. ,v1.0 ,Available ,Pass,"November 25,2021",
+AGENCY_NFTPROJECT_011,Verify View Package Status in Project ,you can also view the status of project ,"1. Go to Project
+2. Project Details ",,Agency app should display the status / quantity of the project ,v1.0 ,Available in project details ,Pass,"November 25,2021",
