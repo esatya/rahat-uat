@@ -1,0 +1,53 @@
+Project Name ,Rahat Social Mobilizer App,,URL,https://mobilizer-stage.rahatapp.com/,,,,,,,
+Module Name ,User Management Module ,,Created By,Nishu Bade Shrestha ,,,,,,,
+Iteration No/Testing Cycle,2,,Date of creation ,"26 August,2021",,,,,,,
+Os/Platform Used ,Android,,Date of Review ,,,,,,,,
+,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+SOCIALMOBILIZER_USER_001,Verify Registration ,Social Mobilizer needs to register his/her account ,"1. Open Web Browser
+2. Enter URL 
+3. Register ","URL
+Social Mobilizer Details ",Social Mobilizer should be able to register in Social Mobilizer app ,H,v1.0 ,"I, as a social mobilizer, can Register to the social Mobilizer app. My unique detail is wallet address. ",Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_002,Verify Social Mobilizer Details ,Social Mobilizer can add their own details ,"1. Open Web Browser
+2. Enter URL 
+3. Register ",Social Mobilizer Details ,"The social Mobilizers details should be :
+Name: 
+organization Name 
+Phone Number :
+Email Address:
+Address:",H,v1.0 ,"To register, I need to fill up the form with following details:
+Name :
+Phone Nmber:
+Emai Address:
+Organization :
+Adress:",Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_003,Verify  Click Social Mobilizer Profile Picture ,Social Mobilizer app will store the picture of Social Mobilizer ,"1. Open Web Browser
+2. Enter URL 
+3. Register ",Profile Picture ,Social Mobilizer app should be able to click the photo of  Social Mobiliers. ,M,v1.0 ,I can click my photo from front camera while registering. But the image is reflected ,Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_004,Verify  Click Social Mobilizer ID card ,Social Mobilizer app will store the ID card of Social Mobilizer,"1. Open Web Browser
+2. Enter URL 
+3. Register ",ID Card ,Social Mobilizer app should be able to click the photo of  Social Mobiliers ID Card.,M,v1.0,I can click the photo of my ID card from back camera ,Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_005,Verify Registration ,"After Adding all the details, Social Mobilizer sends request to Agency for Approval ","1. Open Web Browser
+2. Enter URL 
+3. Register ",,The social Mobilizers should be able to send request for approval to agency.  ,H,v1.0,"After I fill up the form, and click the photos, the screen shows Check for approval. After registration the request is sent to agency ",Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_006,Verify Notification to AGency ,"After Social Mobilizer registers, Agency receives a notification ","1. Social Mobilizer Registers 
+2. Add their details",Registration ,Agency should receive notification as social mobilizer requests for registration approval.,M,v1.0,"As a Agency, a new social mobilizer is added in the list. But I don't receive seperate notification ",Fail,"August 30,2021",
+SOCIALMOBILIZER_USER_007,Verify Add Social Mobilizer in Agency App  ,"After Social Mobilizer registers, the account is added in Agency app>Social Mobilizer. ","1. Social Mobilizer Registers 
+2. Add their details",,Social mobilizer should be added in Agency app>Social Mobilizer ,H,v1.0,New Social Mobiizer is added in agency app> mobilizer. ,Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_008,Verify Registartion Approval ,Agency needs to approve the Social Mobilizer ,"1. Social Mobilizer Registers 
+2. Add their details
+3. Agency Receives Notification ",Registration ,Agency should be able to approve the Social mobilizer after getting a request ,H,v1.0,"As a Agency, After clicking on details of new social mobilizer, there is an APprove button to approve the social Mobilizer ",Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_009,Verify Registration Approval ,Agency can disapprove if social mobilizer is not authorized one,"1. Social Mobilizer Registers 
+2. Add their details
+3. Agency Receives Notification ",Registration ,Agency Should be able to reject the request if the social mobilizer is not the authoqized one. ,L,v1.0,"As a Agency, After clicking on details of new social mobilizer, there is oly an Approve button to approve the social Mobilizer. There is no button to reject the social mobilizer request.",Fail,"August 30,2021",
+SOCIALMOBILIZER_USER_010,Verify Project Assign ,Agency assigns social mobilizer to a project ,"1. Social Mobilizer Registers
+2. Agency Approves ",Project , Agency should be able to assign projects to registered social mobilizer  ,H,v1.0,"After clicking on Approve button, a pop up is generated from where I can assign project to the social mobilizer ",Pass,"August 30,2021",
+SOCIALMOBILIZER_USER_011,Verify Display Social Mobilizer in Project ,"After agency assigns project to Social Mobilizer, it should be dispalyed in AGency app>Project details ","1. Social Mobilizer Registers
+2. Agency Approves 
+3. Assigns Project ",,The social mobilizer should be displayed in Social Mobilizer section ,H,v1.0,"Their is social Mobilizer is details. But when we go to edit section, the social mobilizer is not available. Also, Social mobilizer can be should in list ",Fail,"August 30,2021",
+SOCIALMOBILIZER_USER_012,Verify Login ,"After agency Approves and assigns the project to Social Mobilizer, they should be able to login to the APp ","1. Social Mobilizer Registers
+2. Agency Approves ",,Social Mobilizer should be able to Login to the App after successful Registration ,Medium,v1.0,The Login feature is not available at the moment ,Fail,"August 30,2021",
+SOCIALMOBILIZER_PROJECT_002,View Project Name ,Social Mobilizer can only view the name of assigned project ,1. Social Mobilizer Logs in ,,Social Mobilizer should be able to view the name of assigned project only ,High,v1.1,The project name is displayed on the Homepage of Social Mobilizer app. ,Pass,"August 30,2021",
+SOCIALMOBILIZER_PROJECT_002,View budget of Project ,Social Mobilizer can only view the budget status of assigned project ,1. Social Mobilizer Logs in ,,Social Mobilizer should be able to view the Budget status of assigned project only ,Medium,v1.1,"I, as a social Mobilizer, can view the total budget status of the assigned project. It is labeled as Project Balance ",Pass,"August 30,2021",
+SOCIALMOBILIZER_PROJECT_003,View Number of Token Issued ,Social Mobilizer can view the total number of beneficry to whom the token is issued ,1. Social Mobilizer Logs in ,,Social Mobilizer should be able to view Total number of beneficiry to whom the token is issued.,Medium,v1.0,"I , as a Social Mobilizer, can view the number of beneficiries to whom I have issued token. It is Labeled as Beneficiaries ",Pass,"August 30,2021",
+SOCIALMOBILIZER_PROJECT_004,Add beneficiray ,Social Mobilizer can add beneficry to the project. ,1. Social Mobilizer Logs in ,,Social Mobilizer should be able to add beneficiaries to the Project ,High,v1.0,"As a Social Mobilizer, I can add benefiicries to the project by clicking on the icon which is in the middle of the app.I can add beneficiries either by scanning the QR code or manually tying the QR code ",Pass,"August 30,2021",
