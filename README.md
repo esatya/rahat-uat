@@ -12,9 +12,12 @@ Rahat’s main features are:
 - A platform for local authorities & aid agencies to connect.
 
 ## About rahat-uat
-This Project will mainly comprise the User Acceptance Testing Report of all three Applications of Rahat. 
-    - Agency app 
+This Project will mainly comprise the User Acceptance Testing Report of all three Applications of Rahat.
+
+    - Agency app
+    
     - Vendor app 
+    
     - Social mobilizer app 
     
 ## Contributing
