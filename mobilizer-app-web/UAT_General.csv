@@ -1,0 +1,32 @@
+Project Name ,Rahat Social Mobilizer App,,URL,https://mobilizer-stage.rahatapp.com/,,,,,,
+Module Name ,General  Module ,,Created By,Nishu Bade Shrestha ,,,,,,
+Iteration No/Testing Cycle,2,,Date of creation ,"26 August,2021",,,,,,
+Os/Platform Used ,Android,,Date of Review ,,,,,,,
+,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+SOCIALMOBILIZER_GENERAL_001,Verify Rahat Logo ,Social Mobilizer is one of the application of Rahat. ,Log in to Social Mobilizer App,The application should display the logo of Rahat ,H,v1.0,The logo of Rahat is availbale in the application ,Pass,"August 30,2021",
+SOCIALMOBILIZER_GENERAL_002,Verify Dashboard Content ,Dashboard displays overall picture of the application  ,Log in to Social Mobilizer App,"The dashboard of Social Mobilizr should atleast display:
+1. project Name 
+2. Project Balance 
+3. 3-5 Recent Transaction
+",H,v1.0,"Curently dashboard displays: 
+project Name
+project Balance 
+Number of Beneficiries added
+3 Recent Transaction ",Pass,"August 30,2021",
+SOCIALMOBILIZER_TRANSACTION_001,Verify View Transaction History ,Social Mobilizer can view the previous transactions that they have done ,Log in to Social Mobilizer App,Social Mobilizer should be able to view the past transactions ,H,v1.0,I can view the recent transactions o the Homepage ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_TRANSACTION_002,Verify View Transaction details ,The Past Transaction displays the detai of transaction ,Log in to Social Mobilizer App,"The past transaction should display the following details of Transaction :
+1. Issued Token Amount 
+2. Phone Number/Beenficiary Name 
+3. Date 
+4. Time ",H,v1.0,"The transaction Displays :
+Phone Number/QR code number 
+Date 
+Time
+Issued Token Amount ",Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_TRANSACTION_003,Verify Transaction IN-detailed information ,Social Mobilizer can also view the indetailed details of Transaction ,Log in to Social Mobilizer App,Social Mobilizer should be able to view indetailed information of particular transaction ,H,v1.0,"The indetailed Transaction information includes:
+1. Status
+2.To ( Phone Number ) 
+3.Transacation Hash 
+4. Date 
+5. Amount ",Pass,"Ausgust 13,2021",

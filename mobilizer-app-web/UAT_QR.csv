@@ -1,0 +1,41 @@
+Project Name ,Social Mobilizer app ,,URL,https://mobilizer-stage.rahatapp.com/,,,,,,,
+Module Name ,QR Module ,,Created By,Nishu Bade Shrestha ,,,,,,,
+Iteration No/Testing Cycle,2,,Date of creation ,"26 August,2021",,,,,,,
+Os/Platform Used ,,,Date of Review ,,,,,,,,
+,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+SOCIALMOBILIZER_QR-001,Verify Generate QR code ,Agency will provide unassigned QR code to social mobilizer. ,"1. Login in Agency App
+2. Go to Project 
+3. Generate QR code ",,Agency should be able to generate unassigned Bulk QR code ,H,v1.0,Available ,Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-002,Verify Assign Token amount to QR code ,The agency can assign token amount to the QR code ,"1. Login in Agency App
+2. Go to Project 
+3. Generate QR code ",,Agency should be able to assign the token amount to the QR code. ,H,v1.0,Available ,Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-003,Verify Assign Token Optional ,Asigning token amount to QR code is optional ,"1. Login in Agency App
+2. Go to Project 
+3. Generate QR code ",,The agency should have option to skip assigning token amount to QR code part ,M,v1.0,Available ,Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-004,Verify Download QR code ,The bulk QR code is shared with social mobilizer to add beneficiary ,"1. Login in Agency App
+2. Go to Project 
+3. Generate QR code ",,The Bulk unassigned QR code should be downloadable ,H,v1.0,NOt available. Agency sends the QR code manually ,Fail,"August 30,2021",
+SOCIALMOBILIZER_QR-005,Verify QR code file format ,The pdf format is most preferred format ,"1. Login in Agency App
+2. Go to Project 
+3. Generate QR code ",,The QR code file should be in pdf format ,H,v1.0,not avaibale,Fail,"August 30,2021",
+SOCIALMOBILIZER_QR-006,Verify QR code Scan,The QR code scanner  only accept the QR code sent by the agency ,"1. Social Mobilizer Logs in
+2. Scan Printed QR code 
+
+",Printed QR code ,Social Mobilizer app should only accept the QR code sent by the agency ,H,v1.0,Social Mobilizer app only accepts the QR code sent by Agency ,Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-007,Verify QR code Scan,The QR code scanner should not accept the other QR code ,"1. Social Mobilizer Logs in
+2. Scan Printed QR code 
+
+",Other QR code ,"If Social Mobilizer Scans other QR code, the app should send not respond. ",H,v1.1,"If tried to scan other QR code, It says Please make sure you scanned a valid QR code. Please try again.",Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-008,Verify QR Scanner ,The QR code sent by Agency works only in QR scanner of Merchant app and Social Mobilizer app  ,,Printed QR code ,The QR code sent by Agency Should work only in QR scanner of Merchant app and Social Mobilizer app ,H,v1.0,I scanned the QR sent by agency in Normal scanner. It showed be the QR code number and token amount ,Fail,"August 30,2021",
+SOCIALMOBILIZER_QR-012,Verify QR code use multiple times ,Beneficiry can use the QR code more than one time ,"1. Social Mobilizer Logs in
+2. Scan Printed QR code 
+3. Add beneficiary 
+4. Beneficiry Goes to Vendor 
+5. Vendor Scans the QR code 
+6. Benficiary again goes to vendor 
+",Printed QR code ,Beneficiry should be able to use the QR code more than one time ,M,v1.0,Merchant App supports the QR code second time as well. Benefiicary can use the QR code multiple times. ,Pass,"August 30,2021",
+SOCIALMOBILIZER_QR-013,Verify QR code content ,QR code given to beneficiry should have some informations as well ,,,"The contents of QR code :
+1. Unique QR code
+2. Logo of Rahat 
+3. QR code Number (unique)",L,v1.1,"The QR code Sent by Agency have Unique QR code, Logo of Rahat on the top and QR code Number. ",Pass,"August 30,2021",
