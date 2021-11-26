@@ -11,12 +11,18 @@ Rahat’s main features are:
 - Transaction data in blockchain network to verify the flow of tokens.
 - A platform for local authorities & aid agencies to connect.
 
-## About rahat-uat
-This Project will mainly comprise the User Acceptance Testing Report of all three Applications of Rahat. 
-    - Agency app 
-    - Vendor app 
-    - Social mobilizer app 
+## Getting Started 
+This Project mainly comprises UI/UX - User Acceptance Testing Report of all three Applications of Rahat:**Agency app, Vendor app and Social mobilizer app**. 
+
+To copy rahat-uat repository in your github account: 
+1. First, Go to https://github.com/esatya/rahat-uat. 
+2. Now, Fork the repository. 
+3. Now, you can update your UAT reports of Rahat.<br>
+*Make sure that you are updating in either stage or you can create your own branch* 
+4. After your changes are done, commit the changes. Commit your changes with proper message so that others can identify the changes easily. 
+5. Finally Create Pull request and Send. <br>
+*Send the pull request to stage branch, not master.* 
     
 ## Contributing
 Everyone is very welcome to contribute on Rahat. Please reach us in Gitter in case of any query/feedback/suggestion.
-For more information on the contributing procedure, see Contribution
+For more information on the contributing procedure, see [Contribution](https://github.com/esatya/rahat-uat/blob/master/CONTRIBUTING.md)

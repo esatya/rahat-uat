@@ -1,0 +1,107 @@
+Project Name ,Rahat Social Mobilizer app ,,URL,https://mobilizer-stage.rahatapp.com/,,,,,,,
+Module Name ,Benficiary Module ,,Created By,Nishu Bade Shrestha ,,,,,,,
+Iteration No/Testing Cycle,2,,Date of creation ,"26 August,2021",,,,,,,
+Os/Platform Used ,,,Date of Review ,,,,,,,,
+,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+SOCIALMOBILIZER_BENEFICIARY_001,Verify Add beneficiary ,Social Mobilizer can add benficiaries from Social Mobilizer app either from Phone number or QR code ,1. Log in to Social Mobilizer app ,,Social Mobilizer should be able to add beneficiaries from the app ,H,v1.0,"As a Social Mobilizer, I can add benefiicries to the project by clickig on the icon which is in the middle of the app.I can add beneficiries either by scanning the QR code or manually typing the Unique Phone number ",Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_002,Verify Beneficiary Form ,Social Mobilizer can add details of Beneficiary ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",Beneficiary details ,"Social MObilizer should be able to add following details of beneficaiaries :
+Beneficary:
+Phone Number :
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Old)",H,v1.1,"Social MObilizer should be able to add following details of beneficaiaries :
+Beneficary:
+Phone Number :
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Old)",Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_003,Verify Upload beneficiary Photo ,Social Mobilizer app can store the Photo of Beneficiary ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",Beneficiary Photo ,Social Mobilizer can upload the photo of Beneficiary from the app,M,v1.1,I can click the photo of beneficiary. The reflected image is saved ,Fail,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_004,Verify Upload Beneficiry ID card ,Social Mobilizer app can store the Photo of Beneficiary ID card ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",Beneficiary ID card ,Social Mobilizer can upload the photo of Beneficiary ID Card from the app,M,v1.1,I can click the photo of ID card. The camera is wierd. Plus when I try to clik the picture I constantly click on add beneficiry button ,Fail,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_005,Verify Skip Upload ,Social Mobilizer can also skip the part of uploading photo of Benficry ID card ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",,Social Mobilizer should be able to atleast  skip the upload of  Benficiary ID card  ,M,v1.1,I can skip the Photo Upload of beneficiry ID card ,Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_006,Verify Add Beneficiary  from Phone Number ,benficiary with phone will be added through his/her phone number ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ","Beneficiary details 
+Phone Number",Social Mobilizer should be able to add Beneficiries through the phone number,H,v1.0,"Afte I click on the Add icon on the middle of the app , I can either scan the QR code or click on Enter Manually. As I click on Eneter Manually, This will take to Beneficiary form ",Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_007,Verify Check Duplication ,Two beneficary with same phone number cannot be added ,"1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",,Social Mobilizer should not be able to add beneiciary from already existed phone number ,H,v1.0,,,,
+SOCIALMOBILIZER_BENEFICIARY_008,Verify Error message ,"If social mobilizer is trying to add benficiaries with same phone number , it displays error ","1. Social Mobilizer Logs in 
+2. Process for Adding beneficiary ",,"The application should through error "" Beneficiary Phone number already existed """,,v1.1,,,,
+SOCIALMOBILIZER_BENEFICIARY_009,Verify Add Beneficiry from QR code ,Social Mobilizer can add QR code to beneficry who doesnot have phone ,"1. Social Mobilizer Logs in 
+2. Scan Printed QR code ",Printed QR code ,Social Mobilizer should be able to add new beneficiary using QR code ,H,v1.0,"As a Social Mobilizer, I can add benefiicries to the project by clickig on the icon which is in the middle of the app.After I click on th button a QR scanner opens up ",Pass,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_010,Verify Assign Beneficiary to QR code  ,"To add beneficiry, Social Mobilizer can assign Beneficiry to  QR code given by the agency ","1. Social Mobilizer Logs in 
+2. Scan Printed QR code ",Printed QR code ,Social Mobilizer should be able to assign Printed QR code to a new beneficiary  ,H,v1.0,"As I scan the QR code given by agency,a beneficiry form is displayed ",Pass,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_011,Verify QR code Validation ,Social Mobilzer can only assign QR code given by agency ,"1. Social Mobilizer Logs in 
+2. Scan Printed QR code ",Printed QR code ,Social Mobilizer ap should only support the QR codes given by AGency to Social Mobilizer,H,v1.1,,,,
+SOCIALMOBILIZER_BENEFICIARY_012,Verify Add Details of beneficiary ,"Social Mobilizer add beneficiry along with their details in both the cases , Adding beneficiry using Phone number and QR code ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+",beneficiary Details ,Social Mobilizer should be able to add beneficiry along with their details ,High,v1.0,"As I scan the QR code given by agency,a beneficiry form is displayed ",Pass,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_013,Verify Beneficiry Details ,The details of Beneficiry to be filled should match with the agency app. ,"1. Social Mobilizer Logs in
+2. Add Beneficiary  
+",beneficiary Details ,"The agency app has following details of Beneficiry :
+Beneficary:
+Phone Number :
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Old)",H,v1.1,"The Details of Beneficiry are :
+Beneficary:
+Phone Number :
+Gender:
+Address
+Identity 
+Age 
+Profession
+Group:""Differently Abled/Maternity/Senior Citizens/Covid Victim/Natural Calamities Victim/Under Privileged/Severe Health Issues/Single women/Orphan""
+Education
+No of family member ( Child, Adult, Old)",Pass,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_014,Verify QR code Number ,"When Social Mobilizer adds beneficiary from QR code, the phone number is replaced by QR code number ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+",beneficiary Details ,"When Social Mobilizer adds beneficiary from QR code, the Phone number in Beneficiry for should be auto filled with QR code number ",,v1.0,"After scanning QR code, the form of beneficiry is displayed where the phone number is autofilled by QR code ",Pass,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_015,Verify QR code Number Edit ,The QR code number in Beneficry form cannot be edited ,"1. Social Mobilizer Logs in
+2. Add Beneficiary  
+",beneficiary Details ,The QR code number in Beneficry form should not be editable. ,,v1.0,The QR code number can be edited in form ,Fail,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_016,Verify Issue Token ,"After filling details of beneficiary, social mobilizer issues token to them ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+",Token Amount ,"After filling up the form of beneficiry, social Mobilizer should be able to determine the token amount for the particular beneficiry ",H,v1.0,"After filling up the form and clicking photos, A issue token page is displayed. But I cannot issue token ",Fail,"Ausgust 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_017,Verify Token AMount ,The token amount is issued from assigned project Balance ,"1. Social Mobilizer Logs in
+2. Add Beneficiary  
+3. Issue Token ",,"The token amount assigned to beneficiry should not exceed the project Balance. If token amount exceeds the project balance, it should throw error ""Token Amount exceeds the Project Balance ",H,v1.0,,,,
+SOCIALMOBILIZER_BENEFICIARY_018,Verify Deduct Token in Project ,"After assigning token to beneficry, the token amount is deducted from project Available Token ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+3. Issue Token ",,The Token amount issued to beneficiry should be deducted from Project Available token and added in Used token. ,,v1.0,,,,
+SOCIALMOBILIZER_BENEFICIARY_019,Verify Beneficry add ,"After filling up the form and issue token to beneficry, the beneficiary will be added to Rahat ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+3. Issue Token ",,The beneficry should be added to Rahat after filling up the form and issuing token ,H,v1.0,,,,
+SOCIALMOBILIZER_BENEFICIARY_020,Verify Beneficry update ,"The beneficry will be updated in overall rahat i.e. Agency app, Vendor app, Social Mobilzer app ","1. Social Mobilizer Logs in
+2. Add Beneficiary  
+3. Issue Token ",,"The beneficry should be updated in overall rahat i.e. Agency app, Vendor app, Social Mobilzer app ",,v1.0,,,,
+SOCIALMOBILIZER_BENEFICIARY_021,Verify Update Beneficiary in Agency App,The beneficiaries added by social mobilizer is also updated in Agency app>Beneficiaries ,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,The beneficiaries added by social mobilizer should be updated in Agency app>Beneficiaries ,,v1.0,The beneficiaries added by social mobilizer is updated in Agency app>Beneficiaries ,Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_022,Verify Update Beneficiary in Agency App,The beneficiaries added by social mobilizer is also updated in Agency app>Project Details >beneficry List ,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,The beneficiaries added by social mobilizer should also be updated in Agency app>Project Details>beneficry List ,,v1.1,The beneficiaries added by social mobilizer is updated in Agency app>Project Details>beneficry List ,Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_023,Verify Update Beneficiary in Agency App,The beneficiaries added by social mobilizer is also updated in Agency app>Social Mobilizer Details,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,The beneficiaries added by social mobilizer should also be updated in Agency app>Social Mobilizer Details ,,v1.0,Not Available ,Fail,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_013,Verify Display beneficiary List ,Social Mobilizer can view the list of beneficiries ,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,Social Mobilizer should be able to View the list of Beneficiaries ,Medium,v1.0,"I can view the list of beneficiries that I have added after clicking on ""Beneficiary"" at the bottom left ",Pass,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_014,Verify Edit Beneficiary List ,Social Mobilizer can edit the details of Beneficiary ,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,Social Mobilizer should be able to Edit the Details of Beneficiary ,Low,v1.0,Not Available ,Fail,"August 30,2021",
+SOCIALMOBILIZER_BENEFICIARY_015,Verify Edit Beneficiary List ,Social Mobilizer cannot edit the phone number of Beneficiary ,"1. Log in to Social Mobilizer app 
+2. Add beneficiary ",,Social Mobilizer should not be able to edit the phone number of Beneficiary ,Low,v1.0,I cannot edit any details of beneficiary ,Pass,"August 30,2021",

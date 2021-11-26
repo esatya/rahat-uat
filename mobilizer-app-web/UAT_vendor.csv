@@ -1,0 +1,45 @@
+Project Name ,Social Mobilizer app ,,URL,https://mobilizer-stage.rahatapp.com/,,,,,,,
+Module Name ,QR Module ,,Created By,Nishu Bade Shrestha ,,,,,,,
+Iteration No/Testing Cycle,2,,Date of creation ,"26 August,2021",,,,,,,
+Os/Platform Used ,,,Date of Review ,,,,,,,,
+,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+SOCIALMOBILIZER_VENDOR_001,Verify Accept Phone number of Beneficiry ,Vendor app accepts the phone number of beneficry which is added from Social Mobilizer app,"1. Social Mobilizer Logs in
+2. Add beneficiary 
+4. Beneficiry Goes to Vendor 
+5. Vendor Asks for Phone number 
+
+",,Vendor app should accept the phone number of beneficry which is added from Social Mobilizer app,,v1.0,Supports ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_002,Verify Merchant Specify amount ,Merchant can charge amount requested by Beneficiary ,"1. Social Mobilizer Logs in
+2. Add beneficiary 
+4. Beneficiry Goes to Vendor 
+5. Vendor Asks for Phone number 
+
+",Charge Amont ,Vendor should be able to specify amount to be charged for Rahat ,High,v1.0,Available ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_003,Verify OTP message ,"After entering QR code, OTP is received to Beneficiaries phone Number ","1. Social Mobilizer Logs in
+2. Add beneficiary 
+4. Beneficiry Goes to Vendor 
+5. Vendor Asks for Phone number 
+
+",Phone Number ,Register Mobile number of Beneficry  should receive the message with OTP code ,High,v1.0,NOT required ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_004,Verify OTP functionality ,OTP sent to Registerd Phone number works in Merchant app   ,"1. Social Mobilizer Logs in
+2. Add beneficiary 
+3. Beneficiry Goes to Vendor 
+4.types Phone Number 
+5. Beneficiary Receives OTP ",OTP ,OTP sent to Phone should work in Merchap app ,High,v1.0,Works ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_005,Verify Assigned QR Code Scan ,The QR code assigned from Social Mobilizer app should work in Merchant app  ,,Assigned QR code ,The QR code sent by Agency Should work only in QR scanner of Merchant app and Social Mobilizer app ,High,v1.0,the assigned QR code by social Mobilizer works in Merchant app ,Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_006,Verify UnAssigned QR Code Scan ,only QR code assigned from Social Mobilizer app should work in Merchant app  ,,unassigned Printed QR code ,"If Vendor Scans the QR code sent by Agency but unassigned QR code, The Merchant app should send error",High,v1.0,"If Merchant scans the QR code sent by the Agency which is not assigned, it throws an error messagae ""Please make sure you scanned a valid QR code. Please try again.""",Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_007,Verify token amount for QR code,Vendor cannot determine the token amount if agency has already assigned certain amount of token to QR code ,,,Vendor should not be able to determine the token amount if agency has already assigned token amount to QR code ,H,v1.0,"In assigned token QR, vendors cannot mention Token . ",Pass,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_008,Verify token amount for QR code,The vendor can determine the token amount after they scan the QR code only if the Token amount is not assigned by agency ,"1. Social Mobilizer Logs in
+2. Scan Printed QR code 
+3. Add beneficiary 
+4. Beneficiry Goes to Vendor 
+5. Vendor Scans the QR code 
+
+",Printed QR code ,"After Scanning the QR code, vendor should be able to determine the token amount only if the Token amount is not assigned by agency ",Medium,v1.0,"After Scanning the assigned QR code, Vendor cannot determine the Token amount ",Fail,"Ausgust 13,2021",
+SOCIALMOBILIZER_VENDOR_009,Verify Balance check ,"If beneficary uses the QR code or phone number  when his/her Token balance is zero, Merchant  app will get alert mesage ","1. Social Mobilizer Logs in
+2. Add beneficiary 
+3. Beneficiry Goes to Vendor 
+4. Vendor Scans the QR code /types Phone Number 
+
+",Register Phone Number/Printed QR code ,"Merchant app should receive alert mesage,if beneficary uses the QR code or phone number when his/her Token balance is zero.",High,v1.0,"If Merchant scans QR code it shows error message"" Please make sure you scanned a alid QR code. Please try again. It would be better if we threw message related to zero balance ",Fail,"Ausgust 13,2021",
