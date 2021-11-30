@@ -1,0 +1,18 @@
+This Module is related to the feature where Rumsan wallet is used as a login mechanism to login to other applications. ,,,,,,,,,,
+Project Name ,Rumsan wallet (web app),,URL,rumsanwallet.com,,,,,,
+Module Name ,Application,,Created By,Nishu Bade Shrestha ,,,,,,
+Iteration No/Testing Cycle,1,,Date of creation ,"21 November,2021",,,,,,
+Os/Platform Used ,Windows 10,,Date of Review ,,,,,,,
+,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+RUMSANWALLET_APP_001,Verify use wallet in other application ,Rumsan wallet is used as a login mechanism in different application. like : Rahat Agecny app,"Register in Wallet
+Open COnnected app Login page with QR code 
+Open Rumsan wallet 
+Scan the QR code ",QR code ,Wallet users should be able login to other connected application ,v1.0,Available ,Pass,"November 24,2021",
+RUMSANWALLET_APP_002,Verify QR code Scanner availability ,You can use Rumsan wallet to login to other app by scanning the QR code of third party application using Rumsan Wallet. ,,-,Wallet Users should be able t scan the QR code of connected app to login ,v1.0,Scanner available to Scan. BUt needs UI improvement ,Pass,"November 24,2021",
+RUMSANWALLET_APP_003,Verify QR code Scanner Functionality ,You can use Rumsan wallet to login to other app by scanning the QR code of third party application using Rumsan Wallet. ,,-,"While scanning the QR code, the user should be logged in to the connected app.",v1.0 ,"Scanner works perfectly. But in some devices, it takes 2-3 takes to scan ",Pass,"November 24,2021",
+RUMSANWALLET_APP_004,Verify Login successful if valid QR code ,"If you scan valid QR code, you will be logged in to the thirdparty application ","Register in Wallet
+Open COnnected app Login page with QR code 
+Open Rumsan wallet 
+Scan the QR code ",Valid QR code ,"AFter scanning the valid  QR code of connected app, user should be successfuly logged in to the app ",v1.0 ,Only scans the valid QR code ,Pass,"November 24,2021",
+RUMSANWALLET_APP_005,Verify Login fail if invalid QR code ,"If you scan invalid QR code, you will be not be logged in to the application ",,Invalid QR code ,"If user scan the invalid QR code, error message should be sent. ",v1.0,Does not work on any other QR code. BUt doesnot throw error message too. ,Fail,"November 24,2021",
