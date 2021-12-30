@@ -1,20 +1,36 @@
-Project Name ,Rahat ,,,,,,,
-Module Name ,Agency User Management ,,Created By,Nishu Bade Shrestha ,,,,
-Iteration No/Testing Cycle,,,Date of creation ,"29 July,2021",,,,
-Os/Platform Used ,,,Date of Review ,,,,,
-,,,,,,,,
-Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date 
-AGENCY_UM_001,Verify Registration process ,A new User of Agency app needs to scan the QR code of Agency Login page from Rumsan Wallet and fill up the form and submit it ,"When unregistered User scans the QR code of Agency app Login page from Rumsan Wallet, the system should display the Sign up form. ",High,v1.2,I can register my self as User of AGency app by Scanning the QR ccode from Rumsan Wallet. Registration form is poped after scanning ,Pass,"September 21,2021"
-AGENCY_UM_002,Verify Wallet address ,"After Scanning the QR code, Unregistered user will be displayed a registration form where wallet address will be autopopulated with the users Wallet address","When Unregisterd User Scans the QRcode, the Registration form should autopopulate the Wallet Address of the Scanned RUmsan Wallet Account ",High,v1.2,"After I scan the QR code, the registration form is poped where wallet adress is updated automatically with my Rumsan wallet Account wallet address",Pass,"September 21,2021"
-AGENCY_UM_003,Verify Send Approval to Agency ,"WHen Unregistered User, submits the sign up form the request is submited to the Admin of agency app ",The Registartion request should be sent to Admin of agency app ,High,,Agency app receives the new user in the list of user ,Pass,"September 21,2021"
-AGENCY_UM_004,Verify Approval by Agency ,The registartion request is sent to the agency ,The admin of agency app should be able to approve the valid Users ,High,,Approving the User is not available at the mmoment. only Update and Assigning role is avaiable ,Fail,"September 21,2021"
-AGENCY_UM_005,Verify Reject Request ,The registartion request is sent to the agency ,The admin of agency app should be able to reject the invalid Users ,High,,Approving the User is not available at the mmoment,Fail,"September 21,2021"
-AGENCY_UM_006,Verify Assign Role ,"While aproving the registrtaion request, agency will assign role to the user",Agency should be able to assign role to the new users ,High,,"If I try to assign role to the User, it keeps on loading only. ",Fail,"September 21,2021"
-AGENCY_UM_007,Verify add user ,Admin can add users to agency app ,Agency admin should be able to add users to their resceptive agency app ,Medium,v1.0," While submiting the form, it keeps on loading and at the end says ""Network Error"".error mesage ""email cannot be empty "" comes in before submiting the form.",Fail,"September 21,2021"
+Project Name ,Rahat ,,Created By,Nishu Bade Shrestha ,,,,,,,
+Module Name ,Agency User Management ,,Date of creation ,"29 July,2021",,,,,,,
+Iteration No/Testing Cycle,3,,Date of revision ,"28 December,2021",,,,,,,
+Os/Platform Used ,Windows ,,Date of Review ,"28 December,2021",,,,,,,
+,,,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Test Case Steps ,Test Data/ Input ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+AGENCY_UM_001,Verify Scan and register ,A new User of Agency app needs to scan the QR code of Agency Login page from Rumsan Wallet and fill up the form and submit it ,"1. Go to Agency app login page.
+2. Open Rumsan Wallet in your Mobilie Phone. 
+3. Scan the QR code of Agency Login page from Rumsan Wallet",,"When unregistered User scans the QR code of Agency app Login page from Rumsan Wallet, the system should display the Sign up form. ",High,v1.2,I can register my self as User of AGency app by Scanning the QR ccode from Rumsan Wallet. Registration form is poped after scanning ,Pass,"September 21,2021",
+AGENCY_UM_002,Verify Wallet address ,"After Scanning the QR code, Unregistered user will be displayed a registration form where wallet address will be autopopulated with the users Wallet address","1. Go to Aid agency login page.
+2. Open Rumsan Wallet in your Mobilie Phone. 
+3. Scan the QR code of Agency Login page from Rumsan Wallet",,"When Unregisterd User Scans the QRcode, the Registration form should autopopulate the Wallet Address of the Scanned RUmsan Wallet Account ",High,v1.2,"After I scan the QR code, the registration form is poped where wallet adress is updated automatically with my Rumsan wallet Account wallet address",Pass,"September 21,2021",
+AGENCY_UM_003,Verify Send Approval to Agency ,"WHen Unregistered User, submits the sign up form the request is submited to the Admin of agency app ",,,The Registartion request should be sent to Admin of agency app ,High,,Agency app receives the new user in the list of user ,Pass,"September 21,2021",
+AGENCY_UM_004,Verify Approval by Agency ,The registartion request is sent to the agency ,,,The admin of agency app should be able to approve the valid Users ,High,,Approving the User is not available at the mmoment. only Update and Assigning role is avaiable ,Fail,"September 21,2021",
+AGENCY_UM_005,Verify Reject Request ,The registartion request is sent to the agency ,,,The admin of agency app should be able to reject the invalid Users ,High,,Approving the User is not available at the mmoment,Fail,"September 21,2021",
+AGENCY_UM_006,Verify Assign Role ,"While aproving the registrtaion request, agency will assign role to the user",,,Agency should be able to assign role to the new users ,High,,"If I try to assign role to the User, it keeps on loading only. ",Fail,"September 21,2021",
+AGENCY_UM_007,Verify add user ,Admin can add users to agency app ,"1.Login to Agency app 
+2.Go to Adminstration>Users
+3.Click on add Users 
+4.Fill the details
+5.Submit form ",,Agency admin should be able to add users to their resceptive agency app ,Medium,v1.0," While submiting the form, it keeps on loading and at the end says ""Network Error"".error mesage ""email cannot be empty "" comes in before submiting the form.",Fail,"September 21,2021",
 AGENCY_UM_008,Verify User Role ,"Rahat Agency app has two roles :
 Admin 
-Manager ","While creating/ approving account, admin should be able to assign role to the user as Admin/Manager ",Medium,v1.1,"Admin can choose the role for the Users. However, we can choose multiple roles for one user. Also, some Users have Mobilizer as their role. ",Fail,"September 21,2021"
-AGENCY_UM_009,Verify User Information ,System Users can save their details in the system ,"The information includes:
+Manager ","1.Login to Agency app 
+2.Go to Adminstration>Users
+3.Click on add Users 
+4.Fill the details
+5.Select Roles",,"While creating/ approving account, admin should be able to assign role to the user as Admin/Manager ",Medium,v1.1,"Admin can choose the role for the Users. However, we can choose multiple roles for one user. Also, some Users have Mobilizer as their role. ",Fail,"September 21,2021",Do we need to add Social Mobilizer as User?Can we treat Social mobilizer as vendor?
+AGENCY_UM_009,Verify User Information ,System Users can save their details in the system ,"1.Login to Agency app 
+2.Go to Adminstration>Users
+3.Click on add Users 
+4.Fill the details
+",,"The information includes:
 Profile picture 
 Name :
 Role:
@@ -27,21 +43,39 @@ Phone Number:
 Address:
 Email Address
 Wallet Address:(rumsan wallet)
-",Pass,"September 21,2021"
-AGENCY_UM_010,Verify connect Agency app with Rumsan wallet ,"to login to agency app, Rumsan wallet is neccessary ",Rumsan wallet should be connected to agency app for login ,High,v1.0,"To login, We need to open Rumsan wallet and Scan the QR code of Login Page. ",Pass,"September 21,2021"
-AGENCY_UM_011,Verify wallet address validation ,"To connect Rumsan  wallet account with agency app, wallet address is required ",system should take in valid wallet address only. user should be created only with valid wallet address ,High,v1.1,The System takes in only valid wallet address.,Pass,"8/12/2021September 21,2021"
-AGENCY_UM_012,Verify wallet address validation ,"To connect Rumsan  wallet account with agency app, wallet address is required ","If invalid wallet address is entered, system should throw error",,v1.1,"If invalid wallet address is entered, error message is thrown. But the error message is not releated. It says ""network does not support ENS (operation=""ENS"", network=""unknown"", code=UNSUPPORTED_OPERATION, version=providers/5.0.8)""",Fail,"September 9,2021"
-AGENCY_UM_013,Verify User List ,The admin can view the list of users of agency app ,Admin should be able to view the list of Agency app users. ,High,v1.0,Admin can view the list of Agency APp users in a table format. ,Pass,"September 21,2021"
-AGENCY_UM_014,Verify Manager Restrition ,Manager has certain restriction in the system ,Manager should not be able to access to the project section. Manager cannot add project/add budget for the project ,High,v1.0,,,
-AGENCY_UM_015,Verify Edit User Details ,Admin can edit the details of Users ,Only admin should be allowed to edit the details of Users ,high,v1.1,Admin can edit the details of User.,Pass,"September 21,2021"
-AGENCY_UM_016,Verify Restrict Edit Wallet address,Wallet address is the identity of Users ,Admin should not be able to edit the Wallet address. ,high,v1.1,Admin cannot edit the Wallet address,Pass,"September 21,2021"
-AGENCY_LOGIN_0001,Verify Login through Wallet ,System user can login to aggency app through rumasan wallet ,System User should be able to login to the agency app using Rumsan wallet ,High,v1.0,We can login to Agency App by scanning the QR code from Rumsan Wallet after the admin connected the wallet address.,Pass,"September 21,2021"
-AGENCY_LOGIN_0002,Verify Login throgh wallet ,Login page of agecy app have QR code ,there should be QR code in Login page of Agency app ,High,v1.0,Login page of AGency app consists of QR code with the instruction ,Pass,"September 21,2021"
-AGENCY_LOGIN_0003,Verify Login throgh wallet ,The QR code can only be accessed  from Rumsan Wallet ,System User should be logged in after scanning from Rumsan Wallet ,High,v1.0,"After Scanning from Rumsan Wallet, we are logged in to the app",Pass,"September 21,2021"
-AGENCY_LOGIN_0004,Verify Login throgh wallet ,The QR code can only be accessed  from Rumsan Wallet ,There should not be any response in Agency App if QR code is Scanned from Normal Camera ,High,v1.0,No response is seen when we try to scan from normal camera ,Pass,"September 21,2021"
-AGENCY_LOGIN_0005,Verify QR code Expiry ,QR code will be expired after certain time. ,QR code should not work after certain time ,High,v1.0,The QR code doesnot work after 30 seconds. we need to refresh the page ,Pass,"September 21,2021"
-AGENCY_LOGIN_0006,Verify QR code Expiry alert ,"After QR code expires, alert message will be displayed in QR code ",The system should display Notice after the qr code expires. ,High,v1.0,The screen displayes QR code Expired. Refresh the page ,Pass,"September 21,2021"
-AGENCY _PROFILE_001,Verify Display Own Profile ,System users can view their account detail ,system users should be able to view the details of theirs own ,High,v1.0,The profile section displays the profile of agency. I can view my User name and emailaddres from Profile icon ,Pass,"September 21,2021"
-AGENCY _PROFILE_002,Verify Edit Profile ,System Users can edit their details if required ,System users should be able to edit their profile ,High,v1.0,I cannot edit my profile ,Fail,"September 21,2021"
-AGENCY_ADMIN_001,Verify View Agency Budget ,Agency has their own budget added in the agency app,Admin shoule be able to view the Budget of the agency ,High,v1.1,"I, as an admin can view the Budget/token of agency ",Pass,"September 21,2021"
-AGENCY_ADMIN_002,Verify agency Budget ,Admin can add budget to the agency app ,The Admin should be able to addbudget to the agency app ,Medium,v1.0,there is no section to add budget ,Fail,"September 21,2021"
+",Pass,"September 21,2021", 
+AGENCY_UM_010,Verify connect Agency app with Rumsan wallet ,"to login to agency app, Rumsan wallet is neccessary ","1.Create RUMSAN Wallet Account 
+2.Register your Agency app account with wallet address ",,Rumsan wallet should be connected to agency app for login ,High,v1.0,"To login, We need to open Rumsan wallet and Scan the QR code of Login Page. ",Pass,"September 21,2021",
+AGENCY_UM_011,Verify wallet address validation ,"To connect Rumsan  wallet account with agency app, wallet address is required ","1.Create RUMSAN Wallet Account 
+2.Register your Agency app account with wallet address ",Valid wallet address,system should take in valid wallet address only. user should be created only with valid wallet address ,High,v1.1,The System takes in only valid wallet address.,Pass,"8/12/2021September 21,2021",
+AGENCY_UM_012,Verify wallet address validation ,"To connect Rumsan  wallet account with agency app, wallet address is required ","1.Create RUMSAN Wallet Account 
+2.Register your Agency app account with wallet address ",Invalid wallet address,"If invalid wallet address is entered, system should throw error",,v1.1,"If invalid wallet address is entered, error message is thrown. But the error message is not releated. It says ""network does not support ENS (operation=""ENS"", network=""unknown"", code=UNSUPPORTED_OPERATION, version=providers/5.0.8)""",Fail,"September 9,2021",
+AGENCY_UM_013,Verify User List ,The admin can view the list of users of agency app ,"1.Login to Agency app 
+2.Go to Adminstration>Users
+",,Admin should be able to view the list of Agency app users. ,High,v1.0,Admin can view the list of Agency APp users in a table format. ,Pass,"September 21,2021",
+AGENCY_UM_014,Verify Manager Restrition ,Manager has certain restriction in the system ,,,Manager should not be able to access to the project section. Manager cannot add project/add budget for the project ,High,v1.0,,,,
+AGENCY_UM_015,Verify Edit User Details ,Admin can edit the details of Users ,"1.Login to Agency app 
+2.Go to Adminstration>Users
+3.Click on view icon of respective user 
+4.Edit Details 
+5.Update ",,Only admin should be allowed to edit the details of Users ,high,v1.1,Admin can edit the details of User.,Pass,"September 21,2021",
+AGENCY_UM_015,Verify Update User Role ,Admin can update the role of user ,"1.Login to Agency app 
+2.Go to Adminstration>Users
+3.Click on view icon of respective user 
+4.Edit Details 
+5.Update ",,Only admin should be allowed to Update the role of user ,high,v1.2,Admin can update the role of user .,Pass,"December 28,2021",
+AGENCY_UM_016,Verify Restrict Edit Wallet address,Wallet address is the identity of Users ,,,Admin should not be able to edit the Wallet address. ,high,v1.1,Admin cannot edit the Wallet address,Pass,"September 21,2021",
+AGENCY_LOGIN_0001,Verify Scan and login ,System user can login to aggency app through rumasan wallet ,"1. Open Agency App 
+2. Open Rumsan Wallet in Mobile Phone
+3. Scan QR Code from Rumsan Wallet ",,System User should be able to login to the agency app using Rumsan wallet ,High,v1.0,We can login to Agency App by scanning the QR code from Rumsan Wallet after the admin connected the wallet address.,Pass,"September 21,2021",
+AGENCY_LOGIN_0002,Verify Login throgh wallet ,Login page of agecy app have QR code ,1. Open Agency App,,there should be QR code in Login page of Agency app ,High,v1.0,Login page of AGency app consists of QR code with the instruction ,Pass,"September 21,2021",
+AGENCY_LOGIN_0003,Verify Login throgh wallet ,The QR code can only be accessed  from Rumsan Wallet ,"1. Open Agency App
+2. Open Rumsan Wallet ",Scan from Rumsan Wallet ,System User should be logged in after scanning from Rumsan Wallet ,High,v1.0,"After Scanning from Rumsan Wallet, we are logged in to the app",Pass,"September 21,2021",
+AGENCY_LOGIN_0004,Verify Login throgh wallet ,The QR code can only be accessed  from Rumsan Wallet ,"1. Open Agency App
+2. Open Camera ",Scan from Normal Camera ,There should not be any response in Agency App if QR code is Scanned from Normal Camera ,High,v1.0,No response is seen when we try to scan from normal camera ,Pass,"September 21,2021",
+AGENCY_LOGIN_0005,Verify QR code Expiry ,QR code will be expired after certain time. ,,,QR code should not work after certain time ,High,v1.0,The QR code doesnot work after 30 seconds. we need to refresh the page ,Pass,"September 21,2021",
+AGENCY_LOGIN_0006,Verify QR code Expiry alert ,"After QR code expires, alert message will be displayed in QR code ",,,The system should display Notice after the qr code expires. ,High,v1.0,The screen displayes QR code Expired. Refresh the page ,Pass,"September 21,2021",
+AGENCY _PROFILE_001,Verify Display Own Profile ,System users can view their account detail ,,,system users should be able to view the details of theirs own ,High,v1.0,The profile section displays the profile of agency. I can view my User name and emailaddres from Profile icon ,Pass,"September 21,2021",
+AGENCY _PROFILE_002,Verify Edit Profile ,System Users can edit their details if required ,,,System users should be able to edit their profile ,High,v1.0,I cannot edit my profile ,Fail,"September 21,2021",
+AGENCY_ADMIN_001,Verify View Agency Budget ,Agency has their own budget added in the agency app,,,Admin shoule be able to view the Budget of the agency ,High,v1.1,"I, as an admin can view the Budget/token of agency ",Pass,"September 21,2021",
+AGENCY_ADMIN_002,Verify agency Budget ,Admin can add budget to the agency app ,,,The Admin should be able to addbudget to the agency app ,Medium,v1.0,there is no section to add budget ,Fail,"September 21,2021",
