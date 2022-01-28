@@ -1,18 +1,19 @@
-Project Name ,Rahat ,,,,,,,
-Module Name ,Agency GENERAL ,,Created By,,,,,
-Iteration No/Testing Cycle,,,Date of creation ,"29 July,2021",,,,
-Os/Platform Used ,,,Date of Review ,,,,,
-,,,,,,,,
-Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date 
-AGENCY_DASHBOARD_001,verify view accurate data of agency ,Dashboard displays the overall status of the agency ,The data should be accurate and real-time ,,,All the data in dashboard are realtime. The datas are updated after every action ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_002,Verify View Project Number ,Dashboard views the total number of projects ,The dashboard should display the total number of projects existed in agency ,,,Total number of Projects in agency is dispalyed ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_003,Verify View Beneficiary  Number ,Dashboard views the total number of beneficiaries,The dashboard should display the total number of beneficiaries existed in agency ,,,Total number of Benfeficiry in agency is dispalyed ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_004,Verify View Vendor   Number ,Dashboard views the total number of vendor ,The dashboard should display the total number of vendor existed in agency ,,,Total number of vendor   in agency is dispalyed ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_004,Verify View Financial Instituion  Number ,Dashboard views the total number of financial Institution ,The dashboard should display the total number of finanical Institutions existed in agency ,,,Total number of Financial Institution  in agency is dispalyed ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_005,Verify visual representtaion of Token Status ,Visual representation is shows the overal all token status of agency by projects ,A visual representation should be displayed to show the token status ofagency by projects ( Bar Graph) ,,,The token status of agency by project is displayed in Bargrpah ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_006,Verify visual representtaion of Token Status ,Visual representation is shows the overal all token status of agency by beneficaries ,A visual representation should be displayed to show the token status of agency by beneficiaries ( Pie chart ) ,,,The token status by beneficiries is displayed in pie chart ,Pass,"24 September,2021"
-AGENCY_DASHBOARD_007,Verify Total token Status in number  ,Dashboaord views the token status in number ,"System should show token status in number :
+Project Name ,Rahat ,,Created By,,,,,,
+Module Name ,Agency GENERAL ,,Date of creation ,"29 July,2021",,,,,
+Iteration No/Testing Cycle,,,Date of Review ,"28 December,2021",,,,,
+Os/Platform Used ,,,Date of Revision ,"28 December,2021",,,,,
+,,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Priority ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+AGENCY_DASHBOARD_001,verify view accurate data of agency ,Dashboard displays the overall status of the agency ,The data should be accurate and real-time ,High,v1.0 ,All the data in dashboard are realtime. The datas are updated after every action ,Pass,"24 September,2021",
+AGENCY_DASHBOARD_002,Verify View Project Number ,Dashboard views the total number of projects ,The dashboard should display the total number of projects existed in agency ,High,v1.0 ,Total number of Projects in agency is dispalyed ,Pass,"24 September,2021",
+AGENCY_DASHBOARD_003,Verify View Beneficiary  Number ,Dashboard views the total number of beneficiaries,The dashboard should display the total number of beneficiaries existed in agency ,High,v1.0 ,Total number of Benfeficiry in agency is dispalyed ,Pass,"24 September,2021",
+AGENCY_DASHBOARD_004,Verify View Vendor   Number ,Dashboard views the total number of vendor ,The dashboard should display the total number of vendor existed in agency ,High,v1.0 ,Total number of vendor   in agency is dispalyed ,Pass,"24 September,2021",
+AGENCY_DASHBOARD_005,Verify View mobilizer Number ,Dashboard views the total number of mobilizer ,The dashboard should display the total number of mobilizer existed in agency ,High,v1.0 ,Total number of mobilizer in agency is not dispalyed ,Fail,"28 December,2021",
+AGENCY_DASHBOARD_006,Verify View Financial Instituion  Number ,Dashboard views the total number of financial Institution ,The dashboard should display the total number of finanical Institutions existed in agency ,High,v1.0 ,Total number of Financial Institution  in agency is dispalyed ,Pass,"24 September,2021",
+AGENCY_DASHBOARD_007,Verify visual representtaion of Token/package  Status ,Visual representation is shows the overal all token/package status of agency by projects ,A visual representation should be displayed to show the token/package status ofagency by projects ( Bar Graph) ,High,v1.0 ,Only token status showed. not Package ,Pass,"28 December,2021",
+AGENCY_DASHBOARD_008,Verify visual representtaion of Token/package Status ,Visual representation is shows the overal all token/package status of agency by beneficaries ,A visual representation should be displayed to show the token/package status of agency by beneficiaries ( Pie chart ) ,High,v1.0 ,Only token status showed. not Package ,Pass,"28 December,2021",
+AGENCY_DASHBOARD_009,Verify Total token/package Status in number  ,Dashboaord views the token/package status in number ,"System should show token/package status in number :
 Total Assigned
 Total Issued 
 Total Released
-Total Redeemed ",,,"urrently, only token released and Token redemed is dispalyed ",Fail,"24 September,2021"
+Total Redeemed ",High,v1.0 ,Only token status showed. not Package ,Fail,"28 December,2021",
