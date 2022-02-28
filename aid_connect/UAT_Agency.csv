@@ -1,0 +1,18 @@
+Project Name ,Rahat- Aid Connect,,Created By,,,,,
+Module Name ,AGency ,,Date of creation ,"7 February,2021",,,,
+Iteration No/Testing Cycle,1,,Date of revision ,,,,,
+Os/Platform Used ,Windows,,Date of Review ,"16 February,2022",,,,
+,,,,,,,,
+Test Case ID #,Test Scenario,Test Case Description ,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+RAHAT_AIDCONNECT_AGENCY_001,Verify Aid Connect tool ,Aid connect is an tool which is used to collect the data of beneficiary for a project ,Agency App should have Aid-connect tool feature ,v1.0 ,Available ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_002,Verify Generate Aid connect Link ,Aid connect link is created for each project for ata collection ,Agency app should generate Aid connect Link  for the projects. ,v1.0 ,Generated ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_003,Verify Unique Aid connect link for each project ,Every project will have unique Link which will be used to collect data of beneficiary ,Each projects should have a unique Aid connect link,v1.0 ,Each project has a unique link ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_004,Verify Generate random Link ,The Aid connect link should be Random',The Link generated should be random. ,v1.0 ,"Random link is generated.
+ Sample : https://rahat-aid-connect.pages.dev/ry93PiBBqZjR",Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_005,Verify Option to Disable link ,Athe link generated should be disabled if required ,The agency should be able to disable the link ,v1.0 ,Available ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_006,Verify Receive List of Beneficiries in Onboarding area ,The Data collected from Aid connect will be stored in Onboarding area. the data will not be sent directly to Beneficiary . ,Agency should be able to recieve the Beneficiry data after Data collector send it. The data should be sent to onboarding area. ,v1.0 ,Received. ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_007,Verify Notify when data sent ,Notification to agency when data is sent from Aid connect tool ,Agency should receive an notification in app when the data is sent by data collector ,v1.0 ,not available ,Fail,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_008,Verify view list of beneficiry as per project ,Filter the beneficiry as per project ,The list of data sent by Aid connect shoud be shown as per the project ,v1.0 ,"First, the agency will select the project and then the beneficiry of the particular project will be shown ",Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_009,Verify View details of Beneficiaries ,Agency  can view the details of Beneficiary ,Agency should be able to view the details of Beneficiry ,v1.0 ,"Currentl, it directs you to Agency user details ",Fail,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_010,Verify Import only selected Beneficiaries ,Agency can select and import the beneficiary ,Agency should be able to select the beneficiries which they want to onboard ,v1.0 ,Available ,Pass,"February 16,2022",
+RAHAT_AIDCONNECT_AGENCY_011,Verify Donot upload beneficiary twice ,Phone number is an identity of beneficiry. Beneficiry phone number should be unique ,The system should import the data only once. ,v1.0 ,All the beneficiries are imported even if they are already imported ,Fail,"February 16,2022",
