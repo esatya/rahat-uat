@@ -24,6 +24,6 @@ To copy rahat-uat repository in your github account:
 *Send the pull request to stage branch, not master.* 
     
 # Contributing
-Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in [Discord](https://discord.gg/Xe59EVBs5N), **DEVELOPMENT Channel> #contribute** in case of any query/feedback/suggestion.
+Everyone is very welcome to contribute on the codebase of Rahat. Please reach us in [Discord](https://discord.gg/AV5j2T94VR) in case of any query/feedback/suggestion.
 
 For more information on the contributing procedure, see [Contribution](https://docs.rahat.io/docs/next/Contribution-Guidelines).
