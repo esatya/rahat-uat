@@ -1,0 +1,28 @@
+Project Name ,Rahat- Crowdfunding Tool ,Created By,Nishu Bade Shrestha ,,,,
+Module Name ,Campaign Managment ,Date of creation ,"7 February,2021",,,,
+Iteration No/Testing Cycle,1,Date of revision ,,,,,
+Os/Platform Used ,Windows,Date of Review ,"16 February,2022",,,,
+,,,,,,,
+Test Case ID #,Test Scenario,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+Rahat_fund_0011,Verify Create Fundraiser Campaign ,The logged in Users should be able to Create  fundraiser capmpaign ,v1.0 ,Available,Pass,,
+Rahat_fund_0012,Verify Fill up form for Campaign creation ,"User should fill up the Campaign creation form with these details: 
+- basic details, 
+- tell your story option, 
+- upload photo(s), 
+- target amount, 
+- duration
+- crypto token symbol (BTC, ETH, MATIC, BNB),
+- choose which blockchain network that I want to raise funds
+- enter wallet address( if not connected to wallet)",v1.1,Available,Pass,,
+Rahat_fund_0013,Verify Fundraiser campaign options ,User should be able to save the campaign as Draft or publish the campaign ,v1.2,Available,Pass,,
+Rahat_fund_0014,Verify Fundraiser Status in Draft - non-shareable ,"If user has saved the fundraiser campaign in draft, the campaign should not be shared ",v1.3,Available,Pass,,
+Rahat_fund_0015,Verify Generate Shareable link for  Published Campaign ,"If user has published the campaign, a link should be generated to share the camiagn ",v1.4,Available,Pass,,
+Rahat_fund_0016,Verify Share Published Campaign ,The Campaign should be shareable in social medai if published ,v1.5,Available,Pass,,
+Rahat_fund_0017,Veirfy View  List of Campaign created ,The user should be able to see the list of campaign that has been created ,v1.6,Available,Pass,,
+Rahat_fund_0018,Veirfy View Campaign Detail ,User should be able to view the campaign details ,v1.7,Available,Pass,,
+Rahat_fund_0019,Verify Edit Campaign detail ,User should be able to edit the details of the Capmaign ,v1.8,Available,Pass,,
+Rahat_fund_0020,Verify View Campaign Status ,User Should be able to view the Fund status of The campaign ,v1.9,Available,Pass,,
+Rahat_fund_0021,Verify View Donors ,User should be able to view list of donors of the campiagn ,v1.10,Available,Pass,,
+Rahat_fund_0022,Verify Download Report ,Users should be able to download the reports of the campaign ,v1.11,Available,Pass,,
+Rahat_fund_0023,Verify Archive Campaign ,User should be able to Close/archive the campaign ,v1.12,Available,Pass,,
+Rahat_fund_0024,Verify Send donation notification ,User should get the email notification when the donation is made ,v1.13,Available,Pass,,
