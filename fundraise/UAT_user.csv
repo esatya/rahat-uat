@@ -1,1 +1,16 @@
-
+Project Name ,Rahat- Crowdfunding Tool ,Created By,Nishu Bade Shrestha ,,,,
+Module Name ,User Management ,Date of creation ,"7 February,2021",,,,
+Iteration No/Testing Cycle,1,Date of revision ,,,,,
+Os/Platform Used ,Windows,Date of Review ,"16 February,2022",,,,
+,,,,,,,
+Test Case ID #,Test Scenario,Expected Result ,Version ,Actual Result ,Status ,Tested Date ,Notes 
+Rahat_fund_0001,Verify Signup using email ,Fundraiser Should be able to Sign up using Email.,v1.0 ,Available ,Pass,26th May 2022,
+Rahat_fund_0002,Verify Send OTP in email ,An OTP code should be sent to the registered email ,v1.0 ,Available ,Pass,26th May 2022,
+Rahat_fund_0003,Verify Recaptcha v2 in SIgn up ,Recaptcha should be there to verify ,v1.0,Not available ,Fail,26th May 2022,
+Rahat_fund_0004,Verify Login using Registered Email ,"After Sign up, User should be able to Login using registered email ",v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0005,Verify Receive OTP in Email ,User should receive an OTP code after they enter Email address. ,v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0006,Verify Login using Registered Email ,"After Sign up, User should be able to Login using registered email and valid OTP ",v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0007,Verify Recaptcha v2 in Login  ,Recaptcha should be there to verify ,v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0008,Verify Edit Profile ,User should be able to edit their profile ,v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0009,Verify View own profile ,User shoud be able to view their own profile after registration ,v1.0,Available ,Pass,26th May 2022,
+Rahat_fund_0010,Verify view User Fundraise campiagn ,User should be able to view the created campaigns ,v1.0,Available ,Pass,26th May 2022,
